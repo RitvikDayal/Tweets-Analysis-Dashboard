@@ -1,0 +1,217 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid">
+    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+        <h3 class="text-dark mb-0">Dashboard</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-primary py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1" style="font-size: 13px;"><span>Total Tweets for Analysis</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{TotalTweets}}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="fab fa-twitter fa-2x text-gray-300" style="font-size: 34px;filter: brightness(56%);"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-success py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span style="font-size: 14px;">Positive&nbsp; Tweets</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{Positive}}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="far fa-smile fa-2x text-gray-300" style="color: rgb(11,11,11);filter: brightness(39%) contrast(31%) grayscale(100%);"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-info py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-info font-weight-bold text-xs mb-1"><span style="font-size: 14px;">Neutral Tweets</span></div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                    <div class="text-dark font-weight-bold h5 mb-0 mr-3"><span>{{Neutral}}</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto"><i class="far fa-meh fa-2x text-gray-300" style="filter: brightness(39%) contrast(31%);"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-xl-3 mb-4">
+            <div class="card shadow border-left-warning py-2">
+                <div class="card-body">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col mr-2">
+                            <div class="text-uppercase text-warning font-weight-bold text-xs mb-1"><span style="color: rgb(246,73,62);font-size: 14px;">Negative Tweets</span></div>
+                            <div class="text-dark font-weight-bold h5 mb-0"><span>{{Negative}}</span></div>
+                        </div>
+                        <div class="col-auto"><i class="far fa-angry fa-2x text-gray-300" style="filter: brightness(52%);"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+<!-- Start: Chart -->
+            <div class="row">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="card shadow mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary font-weight-bold m-0">Tweets Sentiment Analysis</h6>
+                        </div>
+                        <div class="card-body">
+                            <canvas class="chart-area" id="pieChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6">
+                    <div class="card shadow mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary font-weight-bold m-0">Covid Statistics</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area" id="barhChart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Chart -->
+            <!-- Start: Chart -->
+            <div class="row">
+                <div class="col">
+                    <div class="card shadow mb-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h6 class="text-primary font-weight-bold m-0">Date Wise Tweets Distribution</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area" id="lineChart"></div>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="text-primary font-weight-bold m-0">Breif Obserations</h6>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <ul>
+                                    <li>Item 1</li>
+                                    <li>Item 2</li>
+                                    <li>Item 3</li>
+                                    <li>Item 4</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Chart -->
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h5 class="text-primary font-weight-bold m-0">Top 5 Liked Tweets</h5>
+                                </div>
+                                <div class="card-body">
+                                {% for tweet in fav_tweets %}
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4><i class="fa fa-star"></i>&nbsp;{{tweet}}</h4><br>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h5 class="text-primary font-weight-bold m-0">Top 5 Retweeted Tweets</h5>
+                                </div>
+                                <div class="card-body">
+                                {% for tweet in ret_tweets %}
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4><i class="fa fa-star"></i>&nbsp;{{tweet}}</h4><br>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                <div class="card-header py-3">
+                                    <h5 class="text-primary font-weight-bold m-0">Top Hashtags</h5>
+                                </div>
+                                    <div class="card text-white bg-primary shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Primary</p>
+                                            <p class="text-white-50 small m-0">#4e73df</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <div class="card text-white bg-success shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Success</p>
+                                            <p class="text-white-50 small m-0">#1cc88a</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <div class="card text-white bg-info shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Info</p>
+                                            <p class="text-white-50 small m-0">#36b9cc</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <div class="card text-white bg-warning shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Warning</p>
+                                            <p class="text-white-50 small m-0">#f6c23e</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <div class="card text-white bg-danger shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Danger</p>
+                                            <p class="text-white-50 small m-0">#e74a3b</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <div class="card text-white bg-secondary shadow">
+                                        <div class="card-body">
+                                            <p class="m-0">Secondary</p>
+                                            <p class="text-white-50 small m-0">#858796</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col" style="text-align: center;"><img src="{% static 'dashboard/img/allword_wordcloud.png' %}" style="text-align: center;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

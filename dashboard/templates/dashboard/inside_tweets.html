@@ -1,0 +1,105 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container-fluid">
+                    <h3 class="text-dark mb-4">Random Tweets from Data</h3>
+                    <div class="row mb-3">
+                        <div class="col-lg-4">
+                            <div class="card mb-3">
+                                <div class="card-body text-center shadow">
+                                    <div class="carousel slide" data-ride="carousel" id="carousel-1">
+                                        <div class="carousel-inner">
+                                        {% for Id in Ids %}
+                                            {% if forloop.first %}
+                                                <div class="carousel-item tweet active" id="{{Id}}"></div>
+                                            {% endif %}
+                                                <div class="carousel-item tweet" id="{{Id}}"></div>
+                                        {% endfor %}
+                                        </div>
+                                        <div>
+                                            <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev" ><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a>
+                                            <!-- End: Previous -->
+                                            <!-- Start: Next --><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a>
+                                            <!-- End: Next -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="text-primary font-weight-bold m-0">Sentiment Analysis Summary</h6>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="small font-weight-bold">Neutral Sentiment<span class="float-right">52.34%</span></h4>
+                                    <div class="progress progress-sm mb-3">
+                                        <div class="progress-bar bg-primary" aria-valuenow="52.34" aria-valuemin="0" aria-valuemax="100" style="width: 52.34%;"><span class="sr-only">52.34%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Positive Sentiment<span class="float-right">40%</span></h4>
+                                    <div class="progress progress-sm mb-3">
+                                        <div class="progress-bar bg-warning" aria-valuenow="31.50" aria-valuemin="0" aria-valuemax="100" style="width: 31.50%;"><span class="sr-only">31.50%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold">Negative Sentiment<span class="float-right">16.16%</span></h4>
+                                    <div class="progress progress-sm mb-3">
+                                        <div class="progress-bar bg-danger" aria-valuenow="16.16" aria-valuemin="0" aria-valuemax="100" style="width: 16.16%;"><span class="sr-only">16.16%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 font-weight-bold" style="font-size: 20px;">Top 15 Word Count</p>
+                                        </div>
+                                        <div class="card-body"5>
+                                            <div><div id="allwords"></div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="font-size: 24px;">Top 15 Neutral Words</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div><div id="neuwords"></div></div>
+                                </div>
+                                <div class="col"><img src="{% static 'dashboard/img/neuwords_wordcloud.png' %}" style="width: 530px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="font-size: 24px;">Top 15 Positive Words</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div><div id="poswords"></div></div>
+                                </div>
+                                <div class="col"><img src="{% static 'dashboard/img/poswords_wordcloud.png' %}" style="width: 530px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow mb-5">
+                        <div class="card-header py-3">
+                            <p class="text-primary m-0 font-weight-bold" style="font-size: 24px;">Top 15 Negative Words</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div><div id="negwords"></div></div>
+                                </div>
+                                <div class="col"><img src="{% static 'dashboard/img/ngwords_wordcloud.png' %}" style="width: 530px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{% endblock content %}
