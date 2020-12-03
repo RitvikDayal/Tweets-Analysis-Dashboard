@@ -1,0 +1,26 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container-fluid text-center" style="background: #ffffff;">
+        <h1 class="text-info mb-1" style="margin: 40px;"><strong><span style="text-decoration: underline;">COVID-19: The Novel Virus</span></strong></h1>
+        <p class="text-primary"><br>Coronavirus disease 2019 (COVID‑19) is an infectious disease caused by&nbsp;<strong>severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)</strong>. It was first identified in&nbsp;<strong>December 2019</strong>&nbsp;in&nbsp;<strong>Wuhan</strong>,
+            Hubei, China, and has resulted in an ongoing pandemic. As of 16 September 2020, more than&nbsp;<strong>29.6 million cases</strong>&nbsp;have been reported across 188 countries and territories with more than&nbsp;<strong>936,000 deaths</strong>;
+            more than 20.1 million people have recovered.<br><br>Image credits:&nbsp;<a href="http://commons.wikimedia.org/">Wikimedia.org</a><br></p>
+        <div class="text-center" style="width: 1247p;margin-top: 20px;"><img class="rounded img-fluid" style="width: 720px;border-top-left-radius: 25px;border-top-right-radius: 25px;border-bottom-right-radius: 25px;border-bottom-left-radius: 25px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/3D_medical_animation_coronavirus_structure.jpg/1200px-3D_medical_animation_coronavirus_structure.jpg"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col text-center">
+            <h1 class="text-danger" style="margin: 30px;"><strong>The Spread</strong></h1>
+            <p style="color: rgb(0,0,0);font-size: 18px;"><br>The virus is spread primarily via&nbsp;<strong>small droplets from coughing, sneezing, and talking</strong>. The droplets are usually not airborne; however, those standing in close proximity may inhale them and become infected.
+                People may also become infected by touching a contaminated surface and then touching their face. The transmission may also occur through aerosols that can stay suspended in the air for longer periods of time in enclosed spaces.
+                It is most contagious during the first three days after the onset of symptoms, although spread is possible before symptoms appear, and from people who are asymptomatic.<br><br>Image credits:&nbsp;<a href="https://www.lavision.de/en/news/2020/4302/">Lavision.de</a>&nbsp;<br></p>
+            <img
+                src="https://www.lavision.de/cms_images/news/bos-covid19.gif?m=1585647199" style="width: 700px;margin-left: 4px;"></div>
+        <div class="col text-center">
+            <h1 class="text-success" style="margin: 30px;"><strong>COVID19 Diagnosis</strong><br></h1>
+            <p style="color: rgb(0,0,0);font-size: 19px;"><br>The standard method of diagnosis is by&nbsp;<strong>real-time reverse transcription polymerase chain reaction (rRT-PCR)</strong>&nbsp;from a nasopharyngeal swab. Chest CT imaging may also be helpful for diagnosis in individuals
+                where there is a high suspicion of infection based on symptoms and risk factors, however guidelines do not recommend using it for routine.screening.<br><br>Image credits:&nbsp;<a href="https://en.wikipedia.org/wiki/COVID-19_testing">Wikipedia.org</a>&nbsp;<br></p>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Covid-19-Time-Course-05.gif/525px-Covid-19-Time-Course-05.gif" style="width: 700px;margin-left: 4px;"></div>
+    </div>
+{% endblock content %}

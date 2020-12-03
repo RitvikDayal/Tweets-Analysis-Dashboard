@@ -1,0 +1,27 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="d-flex flex-column" id="content-wrapper">
+    <div class="text-center">
+        <h1 style="color: rgb(0,0,0);font-size: 60px;"><span style="text-decoration: underline;">Real Time Tweet Sentiment Analyzer</span></h1>
+    </div>
+    {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-{{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+    {% endif %}
+    <form class="text-center"  method="POST">
+    {% csrf_token %}
+        <div class="form-group text-center" style="margin-top: 120px;">
+            {{form.tweet}}</br>
+            <button class="btn btn-primary" type="submit" style="padding: 30px;padding-right: 60px;padding-left: 60px;margin-top: 20px;">Analyze</button>
+        </div>
+    </form>
+    <div class="text-center">
+        <h1 style="color: rgb(0,0,0);font-size: 72px;margin-top: 60px;"></h1>
+    </div>
+</div>
+{% endblock content %}

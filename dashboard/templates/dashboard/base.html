@@ -23,10 +23,14 @@
             <div class="container-fluid d-flex flex-column p-0">
                 <hr class="sidebar-divider my-0">
                 <ul class="nav navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link active" href="{% url 'home' %}" style="width: 200px;"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'home' %}" style="width: 200px;"><i class="fas fa-tachometer-alt"></i><span>Home</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'datacollection' %}" style="width: 200px;"><i class="fas fa-tachometer-alt"></i><span>Data Collection</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'overview' %}" style="width: 200px;"><i class="fas fa-tachometer-alt"></i><span>Overview</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'inside_tweets' %}" style="width: 200px;"><i class="fas fa-user"></i><span>Inside Tweets</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="width: 200px;"><i class="fas fa-table"></i><span>Coming Soon</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'analyzer' %}" style="width: 200px;"><i class="fas fa-table"></i><span>Real Time Analyzer</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{% url 'scrapper' %}" target="_blank" style="width: 200px;"><i class="fas fa-window-maximize"></i><span>Tweets Scrapper</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'cleaning' %}" target="_blank" style="width: 200px;"><i class="fas fa-window-maximize"></i><span>Data Preprocessing</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{% url 'analysis' %}" target="_blank" style="width: 200px;"><i class="fas fa-window-maximize"></i><span>The Analysis</span></a></li>
                 </ul>
             </div>
         </nav>

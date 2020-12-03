@@ -1,6 +1,7 @@
 import os
 import random
 import pandas as pd
+from textblob import TextBlob
 from django.conf import settings
 from collections import Counter
 
@@ -12,7 +13,7 @@ from rest_framework import authentication, permissions
 
 # Constant/Global variables
 base = settings.BASE_DIR
-df_tweets = pd.read_csv(os.path.join(base, 'analyzed_data.csv'))
+df_tweets = pd.read_csv(os.path.join(base, 'analysed_data.csv'))
 covid_cases = pd.read_csv(os.path.join(base, 'covid_cases.csv'))
 
 
@@ -82,13 +83,13 @@ class DateWiseTweets(APIView):
 
     def get(self, request, format=None):
         temp = df_tweets
-        temp['Date'] = pd.to_datetime(temp['Date'])
-        temp = temp['Date'].value_counts().reset_index()
+        temp['created_at'] = pd.to_datetime(temp['created_at'])
+        temp = temp['created_at'].value_counts().reset_index()
         temp.sort_values(by='index', inplace=True)
         
         data = {
             'X':temp['index'],
-            'Y':temp['Date'],
+            'Y':temp['created_at'],
         }
 
         return Response(data)
@@ -163,3 +164,13 @@ class CovidTopStats(APIView):
         }
 
         return Response(data)
+
+def getSentiment(tweet):
+    string = TextBlob(tweet)
+    polar = string.sentiment.polarity
+    if polar == 0:
+        return 'Neutral Sentiment'
+    elif polar < 0:
+        return 'Negative Sentiment'
+    else:
+        return 'Positive Sentiment'
