@@ -13103,7 +13103,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -13129,7 +13129,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">coronavirus</span> <span class="o">=</span> <span class="kc">True</span> 
@@ -13156,13 +13156,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">consumer_key</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter Consumer API KEY: &#39;</span><span class="p">)</span>
-<span class="n">consumer_secret</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter Consumer API SECRET KEY: &#39;</span><span class="p">)</span>
-<span class="n">access_token</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter ACCESS TOKEN: &#39;</span><span class="p">)</span>
-<span class="n">access_token_secret</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter ACCESS SECRET TOKEN: &#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">consumer_key</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">consumer_secret</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">access_token</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+<span class="n">access_token_secret</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
 </pre></div>
 
     </div>
@@ -13172,7 +13172,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">t</span> <span class="o">=</span> <span class="n">Twarc</span><span class="p">(</span><span class="n">consumer_key</span><span class="p">,</span> <span class="n">consumer_secret</span><span class="p">,</span> <span class="n">access_token</span><span class="p">,</span> <span class="n">access_token_secret</span><span class="p">)</span>
@@ -13194,11 +13194,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2020-08-01&#39;</span> 
-<span class="n">end_date</span> <span class="o">=</span> <span class="s1">&#39;2020-08-15&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">start_date</span> <span class="o">=</span> <span class="s1">&#39;2020-09-15&#39;</span>
+<span class="n">end_date</span> <span class="o">=</span> <span class="s1">&#39;2020-09-30&#39;</span>
 </pre></div>
 
     </div>
@@ -13208,7 +13208,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">final_tweet_ids_filename</span> <span class="o">=</span> <span class="s2">&quot;final_ids.txt&quot;</span>
@@ -13229,7 +13229,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">files</span> <span class="o">=</span> <span class="p">[]</span>
@@ -13268,6 +13268,24 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>8.854 million unique tweets.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13278,7 +13296,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The set of IDs is stored in this file.</span>
@@ -13301,10 +13319,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">output_json_filename</span> <span class="o">=</span> <span class="n">output_filename</span><span class="p">[:</span><span class="n">output_filename</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)]</span> <span class="o">+</span> <span class="s2">&quot;.json&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">output_json_filename</span> <span class="o">=</span> <span class="n">output_filename</span><span class="p">[:</span><span class="n">output_filename</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)]</span> <span class="o">+</span> <span class="s2">&quot;.txt&quot;</span>
 <span class="n">ids</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">final_tweet_ids_filename</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">ids_file</span><span class="p">:</span>
     <span class="n">ids</span> <span class="o">=</span> <span class="n">ids_file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
@@ -13344,7 +13362,9 @@ div#notebook {
             <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Finished IO&quot;</span><span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Saved &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">count</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; hydrated tweets.&quot;</span><span class="p">)</span>
         <span class="c1"># Now, since everything has been written. Reset start_index</span>
-        <span class="n">start_index</span> <span class="o">=</span> <span class="n">count</span>
+        <span class="n">start_index</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">hydrated_tweets</span> <span class="o">=</span> <span class="p">[]</span>
+        
 <span class="c1"># There might be tweets unwritten in the last iteration if the count is not a multiple of num_tweets.</span>
 <span class="c1"># In that case, just write out the remainder of tweets.</span>
 <span class="k">if</span> <span class="n">count</span> <span class="o">!=</span> <span class="n">start_index</span><span class="p">:</span>
@@ -13358,40 +13378,7012 @@ div#notebook {
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Total IDs: 8853851, IDs to hydrate: 8853851
+Hydrated: 0
+Started IO
+Finished IO
+Saved 1000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2000 hydrated tweets.
+Started IO
+Finished IO
+Saved 3000 hydrated tweets.
+Started IO
+Finished IO
+Saved 4000 hydrated tweets.
+Started IO
+Finished IO
+Saved 5000 hydrated tweets.
+Started IO
+Finished IO
+Saved 6000 hydrated tweets.
+Started IO
+Finished IO
+Saved 7000 hydrated tweets.
+Started IO
+Finished IO
+Saved 8000 hydrated tweets.
+Started IO
+Finished IO
+Saved 9000 hydrated tweets.
+Started IO
+Finished IO
+Saved 10000 hydrated tweets.
+Started IO
+Finished IO
+Saved 11000 hydrated tweets.
+Started IO
+Finished IO
+Saved 12000 hydrated tweets.
+Started IO
+Finished IO
+Saved 13000 hydrated tweets.
+Started IO
+Finished IO
+Saved 14000 hydrated tweets.
+Started IO
+Finished IO
+Saved 15000 hydrated tweets.
+Started IO
+Finished IO
+Saved 16000 hydrated tweets.
+Started IO
+Finished IO
+Saved 17000 hydrated tweets.
+Started IO
+Finished IO
+Saved 18000 hydrated tweets.
+Started IO
+Finished IO
+Saved 19000 hydrated tweets.
+Started IO
+Finished IO
+Saved 20000 hydrated tweets.
+Started IO
+Finished IO
+Saved 21000 hydrated tweets.
+Started IO
+Finished IO
+Saved 22000 hydrated tweets.
+Started IO
+Finished IO
+Saved 23000 hydrated tweets.
+Started IO
+Finished IO
+Saved 24000 hydrated tweets.
+Started IO
+Finished IO
+Saved 25000 hydrated tweets.
+Started IO
+Finished IO
+Saved 26000 hydrated tweets.
+Started IO
+Finished IO
+Saved 27000 hydrated tweets.
+Started IO
+Finished IO
+Saved 28000 hydrated tweets.
+Started IO
+Finished IO
+Saved 29000 hydrated tweets.
+Started IO
+Finished IO
+Saved 30000 hydrated tweets.
+Started IO
+Finished IO
+Saved 31000 hydrated tweets.
+Started IO
+Finished IO
+Saved 32000 hydrated tweets.
+Started IO
+Finished IO
+Saved 33000 hydrated tweets.
+Started IO
+Finished IO
+Saved 34000 hydrated tweets.
+Started IO
+Finished IO
+Saved 35000 hydrated tweets.
+Started IO
+Finished IO
+Saved 36000 hydrated tweets.
+Started IO
+Finished IO
+Saved 37000 hydrated tweets.
+Started IO
+Finished IO
+Saved 38000 hydrated tweets.
+Started IO
+Finished IO
+Saved 39000 hydrated tweets.
+Started IO
+Finished IO
+Saved 40000 hydrated tweets.
+Started IO
+Finished IO
+Saved 41000 hydrated tweets.
+Started IO
+Finished IO
+Saved 42000 hydrated tweets.
+Started IO
+Finished IO
+Saved 43000 hydrated tweets.
+Started IO
+Finished IO
+Saved 44000 hydrated tweets.
+Started IO
+Finished IO
+Saved 45000 hydrated tweets.
+Started IO
+Finished IO
+Saved 46000 hydrated tweets.
+Started IO
+Finished IO
+Saved 47000 hydrated tweets.
+Started IO
+Finished IO
+Saved 48000 hydrated tweets.
+Started IO
+Finished IO
+Saved 49000 hydrated tweets.
+Started IO
+Finished IO
+Saved 50000 hydrated tweets.
+Started IO
+Finished IO
+Saved 51000 hydrated tweets.
+Started IO
+Finished IO
+Saved 52000 hydrated tweets.
+Started IO
+Finished IO
+Saved 53000 hydrated tweets.
+Started IO
+Finished IO
+Saved 54000 hydrated tweets.
+Started IO
+Finished IO
+Saved 55000 hydrated tweets.
+Started IO
+Finished IO
+Saved 56000 hydrated tweets.
+Started IO
+Finished IO
+Saved 57000 hydrated tweets.
+Started IO
+Finished IO
+Saved 58000 hydrated tweets.
+Started IO
+Finished IO
+Saved 59000 hydrated tweets.
+Started IO
+Finished IO
+Saved 60000 hydrated tweets.
+Started IO
+Finished IO
+Saved 61000 hydrated tweets.
+Started IO
+Finished IO
+Saved 62000 hydrated tweets.
+Started IO
+Finished IO
+Saved 63000 hydrated tweets.
+Started IO
+Finished IO
+Saved 64000 hydrated tweets.
+Started IO
+Finished IO
+Saved 65000 hydrated tweets.
+Started IO
+Finished IO
+Saved 66000 hydrated tweets.
+Started IO
+Finished IO
+Saved 67000 hydrated tweets.
+Started IO
+Finished IO
+Saved 68000 hydrated tweets.
+Started IO
+Finished IO
+Saved 69000 hydrated tweets.
+Started IO
+Finished IO
+Saved 70000 hydrated tweets.
+Started IO
+Finished IO
+Saved 71000 hydrated tweets.
+Started IO
+Finished IO
+Saved 72000 hydrated tweets.
+Started IO
+Finished IO
+Saved 73000 hydrated tweets.
+Started IO
+Finished IO
+Saved 74000 hydrated tweets.
+Started IO
+Finished IO
+Saved 75000 hydrated tweets.
+Started IO
+Finished IO
+Saved 76000 hydrated tweets.
+Started IO
+Finished IO
+Saved 77000 hydrated tweets.
+Started IO
+Finished IO
+Saved 78000 hydrated tweets.
+Started IO
+Finished IO
+Saved 79000 hydrated tweets.
+Started IO
+Finished IO
+Saved 80000 hydrated tweets.
+Started IO
+Finished IO
+Saved 81000 hydrated tweets.
+Started IO
+Finished IO
+Saved 82000 hydrated tweets.
+Started IO
+Finished IO
+Saved 83000 hydrated tweets.
+Started IO
+Finished IO
+Saved 84000 hydrated tweets.
+Started IO
+Finished IO
+Saved 85000 hydrated tweets.
+Started IO
+Finished IO
+Saved 86000 hydrated tweets.
+Started IO
+Finished IO
+Saved 87000 hydrated tweets.
+Started IO
+Finished IO
+Saved 88000 hydrated tweets.
+Started IO
+Finished IO
+Saved 89000 hydrated tweets.
+Started IO
+Finished IO
+Saved 90000 hydrated tweets.
+Started IO
+Finished IO
+Saved 91000 hydrated tweets.
+</pre>
 </div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="JSONL-to-CSV-Conversion-of-Data">JSONL to CSV Conversion of Data<a class="anchor-link" href="#JSONL-to-CSV-Conversion-of-Data">&#182;</a></h3>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 279.98266100883484 secs
+</pre>
 </div>
 </div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 92000 hydrated tweets.
+Started IO
+Finished IO
+Saved 93000 hydrated tweets.
+Started IO
+Finished IO
+Saved 94000 hydrated tweets.
+Started IO
+Finished IO
+Saved 95000 hydrated tweets.
+Started IO
+Finished IO
+Saved 96000 hydrated tweets.
+Started IO
+Finished IO
+Saved 97000 hydrated tweets.
+Started IO
+Finished IO
+Saved 98000 hydrated tweets.
+Started IO
+Finished IO
+Saved 99000 hydrated tweets.
+Started IO
+Finished IO
+Saved 100000 hydrated tweets.
+Started IO
+Finished IO
+Saved 101000 hydrated tweets.
+Started IO
+Finished IO
+Saved 102000 hydrated tweets.
+Started IO
+Finished IO
+Saved 103000 hydrated tweets.
+Started IO
+Finished IO
+Saved 104000 hydrated tweets.
+Started IO
+Finished IO
+Saved 105000 hydrated tweets.
+Started IO
+Finished IO
+Saved 106000 hydrated tweets.
+Started IO
+Finished IO
+Saved 107000 hydrated tweets.
+Started IO
+Finished IO
+Saved 108000 hydrated tweets.
+Started IO
+Finished IO
+Saved 109000 hydrated tweets.
+Started IO
+Finished IO
+Saved 110000 hydrated tweets.
+Started IO
+Finished IO
+Saved 111000 hydrated tweets.
+Started IO
+Finished IO
+Saved 112000 hydrated tweets.
+Started IO
+Finished IO
+Saved 113000 hydrated tweets.
+Started IO
+Finished IO
+Saved 114000 hydrated tweets.
+Started IO
+Finished IO
+Saved 115000 hydrated tweets.
+Started IO
+Finished IO
+Saved 116000 hydrated tweets.
+Started IO
+Finished IO
+Saved 117000 hydrated tweets.
+Started IO
+Finished IO
+Saved 118000 hydrated tweets.
+Started IO
+Finished IO
+Saved 119000 hydrated tweets.
+Started IO
+Finished IO
+Saved 120000 hydrated tweets.
+Started IO
+Finished IO
+Saved 121000 hydrated tweets.
+Started IO
+Finished IO
+Saved 122000 hydrated tweets.
+Started IO
+Finished IO
+Saved 123000 hydrated tweets.
+Started IO
+Finished IO
+Saved 124000 hydrated tweets.
+Started IO
+Finished IO
+Saved 125000 hydrated tweets.
+Started IO
+Finished IO
+Saved 126000 hydrated tweets.
+Started IO
+Finished IO
+Saved 127000 hydrated tweets.
+Started IO
+Finished IO
+Saved 128000 hydrated tweets.
+Started IO
+Finished IO
+Saved 129000 hydrated tweets.
+Started IO
+Finished IO
+Saved 130000 hydrated tweets.
+Started IO
+Finished IO
+Saved 131000 hydrated tweets.
+Started IO
+Finished IO
+Saved 132000 hydrated tweets.
+Started IO
+Finished IO
+Saved 133000 hydrated tweets.
+Started IO
+Finished IO
+Saved 134000 hydrated tweets.
+Started IO
+Finished IO
+Saved 135000 hydrated tweets.
+Started IO
+Finished IO
+Saved 136000 hydrated tweets.
+Started IO
+Finished IO
+Saved 137000 hydrated tweets.
+Started IO
+Finished IO
+Saved 138000 hydrated tweets.
+Started IO
+Finished IO
+Saved 139000 hydrated tweets.
+Started IO
+Finished IO
+Saved 140000 hydrated tweets.
+Started IO
+Finished IO
+Saved 141000 hydrated tweets.
+Started IO
+Finished IO
+Saved 142000 hydrated tweets.
+Started IO
+Finished IO
+Saved 143000 hydrated tweets.
+Started IO
+Finished IO
+Saved 144000 hydrated tweets.
+Started IO
+Finished IO
+Saved 145000 hydrated tweets.
+Started IO
+Finished IO
+Saved 146000 hydrated tweets.
+Started IO
+Finished IO
+Saved 147000 hydrated tweets.
+Started IO
+Finished IO
+Saved 148000 hydrated tweets.
+Started IO
+Finished IO
+Saved 149000 hydrated tweets.
+Started IO
+Finished IO
+Saved 150000 hydrated tweets.
+Started IO
+Finished IO
+Saved 151000 hydrated tweets.
+Started IO
+Finished IO
+Saved 152000 hydrated tweets.
+Started IO
+Finished IO
+Saved 153000 hydrated tweets.
+Started IO
+Finished IO
+Saved 154000 hydrated tweets.
+Started IO
+Finished IO
+Saved 155000 hydrated tweets.
+Started IO
+Finished IO
+Saved 156000 hydrated tweets.
+Started IO
+Finished IO
+Saved 157000 hydrated tweets.
+Started IO
+Finished IO
+Saved 158000 hydrated tweets.
+Started IO
+Finished IO
+Saved 159000 hydrated tweets.
+Started IO
+Finished IO
+Saved 160000 hydrated tweets.
+Started IO
+Finished IO
+Saved 161000 hydrated tweets.
+Started IO
+Finished IO
+Saved 162000 hydrated tweets.
+Started IO
+Finished IO
+Saved 163000 hydrated tweets.
+Started IO
+Finished IO
+Saved 164000 hydrated tweets.
+Started IO
+Finished IO
+Saved 165000 hydrated tweets.
+Started IO
+Finished IO
+Saved 166000 hydrated tweets.
+Started IO
+Finished IO
+Saved 167000 hydrated tweets.
+Started IO
+Finished IO
+Saved 168000 hydrated tweets.
+Started IO
+Finished IO
+Saved 169000 hydrated tweets.
+Started IO
+Finished IO
+Saved 170000 hydrated tweets.
+Started IO
+Finished IO
+Saved 171000 hydrated tweets.
+Started IO
+Finished IO
+Saved 172000 hydrated tweets.
+</pre>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">output_json_filename</span> <span class="o">=</span> <span class="n">output_filename</span><span class="p">[:</span><span class="n">output_filename</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)]</span> <span class="o">+</span> <span class="s2">&quot;.txt&quot;</span>
-<span class="c1"># These are the column name that are selected to be stored in the csv</span>
+</div>
 
-<span class="n">keyset</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;created_at&quot;</span><span class="p">,</span> <span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;full_text&quot;</span><span class="p">,</span> <span class="s2">&quot;truncated&quot;</span><span class="p">,</span> <span class="s2">&quot;coordinates&quot;</span><span class="p">,</span>
-          <span class="s2">&quot;place&quot;</span><span class="p">,</span> <span class="s2">&quot;retweet_count&quot;</span><span class="p">,</span> <span class="s2">&quot;favorite_count&quot;</span><span class="p">,</span> <span class="s2">&quot;lang&quot;</span><span class="p">,</span> <span class="s2">&quot;geo&quot;</span><span class="p">]</span>
+<div class="output_area">
 
-<span class="n">hydrated_tweets</span> <span class="o">=</span> <span class="p">[]</span>
+    <div class="prompt"></div>
 
-<span class="c1"># Reads the current tweets</span>
-<span class="k">with</span> <span class="n">jsonlines</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">output_json_filename</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">reader</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">reader</span><span class="o">.</span><span class="n">iter</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="nb">dict</span><span class="p">,</span> <span class="n">skip_invalid</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
-        <span class="n">hydrated_tweets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
 
-<span class="c1"># Writes them out</span>
-<span class="k">with</span>  <span class="nb">open</span><span class="p">(</span><span class="n">output_filename</span><span class="p">,</span> <span class="s2">&quot;w+&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">output_file</span><span class="p">:</span>
-    <span class="n">d</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">DictWriter</span><span class="p">(</span><span class="n">output_file</span><span class="p">,</span> <span class="n">keyset</span><span class="p">)</span>
-    <span class="n">d</span><span class="o">.</span><span class="n">writeheader</span><span class="p">()</span>
-    <span class="n">d</span><span class="o">.</span><span class="n">writerows</span><span class="p">(</span><span class="n">hydrated_tweets</span><span class="p">)</span>
-</pre></div>
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 280.3148458003998 secs
+</pre>
+</div>
+</div>
 
-    </div>
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 173000 hydrated tweets.
+Started IO
+Finished IO
+Saved 174000 hydrated tweets.
+Started IO
+Finished IO
+Saved 175000 hydrated tweets.
+Started IO
+Finished IO
+Saved 176000 hydrated tweets.
+Started IO
+Finished IO
+Saved 177000 hydrated tweets.
+Started IO
+Finished IO
+Saved 178000 hydrated tweets.
+Started IO
+Finished IO
+Saved 179000 hydrated tweets.
+Started IO
+Finished IO
+Saved 180000 hydrated tweets.
+Started IO
+Finished IO
+Saved 181000 hydrated tweets.
+Started IO
+Finished IO
+Saved 182000 hydrated tweets.
+Started IO
+Finished IO
+Saved 183000 hydrated tweets.
+Started IO
+Finished IO
+Saved 184000 hydrated tweets.
+Started IO
+Finished IO
+Saved 185000 hydrated tweets.
+Started IO
+Finished IO
+Saved 186000 hydrated tweets.
+Started IO
+Finished IO
+Saved 187000 hydrated tweets.
+Started IO
+Finished IO
+Saved 188000 hydrated tweets.
+Started IO
+Finished IO
+Saved 189000 hydrated tweets.
+Started IO
+Finished IO
+Saved 190000 hydrated tweets.
+Started IO
+Finished IO
+Saved 191000 hydrated tweets.
+Started IO
+Finished IO
+Saved 192000 hydrated tweets.
+Started IO
+Finished IO
+Saved 193000 hydrated tweets.
+Started IO
+Finished IO
+Saved 194000 hydrated tweets.
+Started IO
+Finished IO
+Saved 195000 hydrated tweets.
+Started IO
+Finished IO
+Saved 196000 hydrated tweets.
+Started IO
+Finished IO
+Saved 197000 hydrated tweets.
+Started IO
+Finished IO
+Saved 198000 hydrated tweets.
+Started IO
+Finished IO
+Saved 199000 hydrated tweets.
+Started IO
+Finished IO
+Saved 200000 hydrated tweets.
+Started IO
+Finished IO
+Saved 201000 hydrated tweets.
+Started IO
+Finished IO
+Saved 202000 hydrated tweets.
+Started IO
+Finished IO
+Saved 203000 hydrated tweets.
+Started IO
+Finished IO
+Saved 204000 hydrated tweets.
+Started IO
+Finished IO
+Saved 205000 hydrated tweets.
+Started IO
+Finished IO
+Saved 206000 hydrated tweets.
+Started IO
+Finished IO
+Saved 207000 hydrated tweets.
+Started IO
+Finished IO
+Saved 208000 hydrated tweets.
+Started IO
+Finished IO
+Saved 209000 hydrated tweets.
+Started IO
+Finished IO
+Saved 210000 hydrated tweets.
+Started IO
+Finished IO
+Saved 211000 hydrated tweets.
+Started IO
+Finished IO
+Saved 212000 hydrated tweets.
+Started IO
+Finished IO
+Saved 213000 hydrated tweets.
+Started IO
+Finished IO
+Saved 214000 hydrated tweets.
+Started IO
+Finished IO
+Saved 215000 hydrated tweets.
+Started IO
+Finished IO
+Saved 216000 hydrated tweets.
+Started IO
+Finished IO
+Saved 217000 hydrated tweets.
+Started IO
+Finished IO
+Saved 218000 hydrated tweets.
+Started IO
+Finished IO
+Saved 219000 hydrated tweets.
+Started IO
+Finished IO
+Saved 220000 hydrated tweets.
+Started IO
+Finished IO
+Saved 221000 hydrated tweets.
+Started IO
+Finished IO
+Saved 222000 hydrated tweets.
+Started IO
+Finished IO
+Saved 223000 hydrated tweets.
+Started IO
+Finished IO
+Saved 224000 hydrated tweets.
+Started IO
+Finished IO
+Saved 225000 hydrated tweets.
+Started IO
+Finished IO
+Saved 226000 hydrated tweets.
+Started IO
+Finished IO
+Saved 227000 hydrated tweets.
+Started IO
+Finished IO
+Saved 228000 hydrated tweets.
+Started IO
+Finished IO
+Saved 229000 hydrated tweets.
+Started IO
+Finished IO
+Saved 230000 hydrated tweets.
+Started IO
+Finished IO
+Saved 231000 hydrated tweets.
+Started IO
+Finished IO
+Saved 232000 hydrated tweets.
+Started IO
+Finished IO
+Saved 233000 hydrated tweets.
+Started IO
+Finished IO
+Saved 234000 hydrated tweets.
+Started IO
+Finished IO
+Saved 235000 hydrated tweets.
+Started IO
+Finished IO
+Saved 236000 hydrated tweets.
+Started IO
+Finished IO
+Saved 237000 hydrated tweets.
+Started IO
+Finished IO
+Saved 238000 hydrated tweets.
+Started IO
+Finished IO
+Saved 239000 hydrated tweets.
+Started IO
+Finished IO
+Saved 240000 hydrated tweets.
+Started IO
+Finished IO
+Saved 241000 hydrated tweets.
+Started IO
+Finished IO
+Saved 242000 hydrated tweets.
+Started IO
+Finished IO
+Saved 243000 hydrated tweets.
+Started IO
+Finished IO
+Saved 244000 hydrated tweets.
+Started IO
+Finished IO
+Saved 245000 hydrated tweets.
+Started IO
+Finished IO
+Saved 246000 hydrated tweets.
+Started IO
+Finished IO
+Saved 247000 hydrated tweets.
+Started IO
+Finished IO
+Saved 248000 hydrated tweets.
+Started IO
+Finished IO
+Saved 249000 hydrated tweets.
+Started IO
+Finished IO
+Saved 250000 hydrated tweets.
+Started IO
+Finished IO
+Saved 251000 hydrated tweets.
+Started IO
+Finished IO
+Saved 252000 hydrated tweets.
+Started IO
+Finished IO
+Saved 253000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 286.9844284057617 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 254000 hydrated tweets.
+Started IO
+Finished IO
+Saved 255000 hydrated tweets.
+Started IO
+Finished IO
+Saved 256000 hydrated tweets.
+Started IO
+Finished IO
+Saved 257000 hydrated tweets.
+Started IO
+Finished IO
+Saved 258000 hydrated tweets.
+Started IO
+Finished IO
+Saved 259000 hydrated tweets.
+Started IO
+Finished IO
+Saved 260000 hydrated tweets.
+Started IO
+Finished IO
+Saved 261000 hydrated tweets.
+Started IO
+Finished IO
+Saved 262000 hydrated tweets.
+Started IO
+Finished IO
+Saved 263000 hydrated tweets.
+Started IO
+Finished IO
+Saved 264000 hydrated tweets.
+Started IO
+Finished IO
+Saved 265000 hydrated tweets.
+Started IO
+Finished IO
+Saved 266000 hydrated tweets.
+Started IO
+Finished IO
+Saved 267000 hydrated tweets.
+Started IO
+Finished IO
+Saved 268000 hydrated tweets.
+Started IO
+Finished IO
+Saved 269000 hydrated tweets.
+Started IO
+Finished IO
+Saved 270000 hydrated tweets.
+Started IO
+Finished IO
+Saved 271000 hydrated tweets.
+Started IO
+Finished IO
+Saved 272000 hydrated tweets.
+Started IO
+Finished IO
+Saved 273000 hydrated tweets.
+Started IO
+Finished IO
+Saved 274000 hydrated tweets.
+Started IO
+Finished IO
+Saved 275000 hydrated tweets.
+Started IO
+Finished IO
+Saved 276000 hydrated tweets.
+Started IO
+Finished IO
+Saved 277000 hydrated tweets.
+Started IO
+Finished IO
+Saved 278000 hydrated tweets.
+Started IO
+Finished IO
+Saved 279000 hydrated tweets.
+Started IO
+Finished IO
+Saved 280000 hydrated tweets.
+Started IO
+Finished IO
+Saved 281000 hydrated tweets.
+Started IO
+Finished IO
+Saved 282000 hydrated tweets.
+Started IO
+Finished IO
+Saved 283000 hydrated tweets.
+Started IO
+Finished IO
+Saved 284000 hydrated tweets.
+Started IO
+Finished IO
+Saved 285000 hydrated tweets.
+Started IO
+Finished IO
+Saved 286000 hydrated tweets.
+Started IO
+Finished IO
+Saved 287000 hydrated tweets.
+Started IO
+Finished IO
+Saved 288000 hydrated tweets.
+Started IO
+Finished IO
+Saved 289000 hydrated tweets.
+Started IO
+Finished IO
+Saved 290000 hydrated tweets.
+Started IO
+Finished IO
+Saved 291000 hydrated tweets.
+Started IO
+Finished IO
+Saved 292000 hydrated tweets.
+Started IO
+Finished IO
+Saved 293000 hydrated tweets.
+Started IO
+Finished IO
+Saved 294000 hydrated tweets.
+Started IO
+Finished IO
+Saved 295000 hydrated tweets.
+Started IO
+Finished IO
+Saved 296000 hydrated tweets.
+Started IO
+Finished IO
+Saved 297000 hydrated tweets.
+Started IO
+Finished IO
+Saved 298000 hydrated tweets.
+Started IO
+Finished IO
+Saved 299000 hydrated tweets.
+Started IO
+Finished IO
+Saved 300000 hydrated tweets.
+Started IO
+Finished IO
+Saved 301000 hydrated tweets.
+Started IO
+Finished IO
+Saved 302000 hydrated tweets.
+Started IO
+Finished IO
+Saved 303000 hydrated tweets.
+Started IO
+Finished IO
+Saved 304000 hydrated tweets.
+Started IO
+Finished IO
+Saved 305000 hydrated tweets.
+Started IO
+Finished IO
+Saved 306000 hydrated tweets.
+Started IO
+Finished IO
+Saved 307000 hydrated tweets.
+Started IO
+Finished IO
+Saved 308000 hydrated tweets.
+Started IO
+Finished IO
+Saved 309000 hydrated tweets.
+Started IO
+Finished IO
+Saved 310000 hydrated tweets.
+Started IO
+Finished IO
+Saved 311000 hydrated tweets.
+Started IO
+Finished IO
+Saved 312000 hydrated tweets.
+Started IO
+Finished IO
+Saved 313000 hydrated tweets.
+Started IO
+Finished IO
+Saved 314000 hydrated tweets.
+Started IO
+Finished IO
+Saved 315000 hydrated tweets.
+Started IO
+Finished IO
+Saved 316000 hydrated tweets.
+Started IO
+Finished IO
+Saved 317000 hydrated tweets.
+Started IO
+Finished IO
+Saved 318000 hydrated tweets.
+Started IO
+Finished IO
+Saved 319000 hydrated tweets.
+Started IO
+Finished IO
+Saved 320000 hydrated tweets.
+Started IO
+Finished IO
+Saved 321000 hydrated tweets.
+Started IO
+Finished IO
+Saved 322000 hydrated tweets.
+Started IO
+Finished IO
+Saved 323000 hydrated tweets.
+Started IO
+Finished IO
+Saved 324000 hydrated tweets.
+Started IO
+Finished IO
+Saved 325000 hydrated tweets.
+Started IO
+Finished IO
+Saved 326000 hydrated tweets.
+Started IO
+Finished IO
+Saved 327000 hydrated tweets.
+Started IO
+Finished IO
+Saved 328000 hydrated tweets.
+Started IO
+Finished IO
+Saved 329000 hydrated tweets.
+Started IO
+Finished IO
+Saved 330000 hydrated tweets.
+Started IO
+Finished IO
+Saved 331000 hydrated tweets.
+Started IO
+Finished IO
+Saved 332000 hydrated tweets.
+Started IO
+Finished IO
+Saved 333000 hydrated tweets.
+Started IO
+Finished IO
+Saved 334000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 283.3843812942505 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 335000 hydrated tweets.
+Started IO
+Finished IO
+Saved 336000 hydrated tweets.
+Started IO
+Finished IO
+Saved 337000 hydrated tweets.
+Started IO
+Finished IO
+Saved 338000 hydrated tweets.
+Started IO
+Finished IO
+Saved 339000 hydrated tweets.
+Started IO
+Finished IO
+Saved 340000 hydrated tweets.
+Started IO
+Finished IO
+Saved 341000 hydrated tweets.
+Started IO
+Finished IO
+Saved 342000 hydrated tweets.
+Started IO
+Finished IO
+Saved 343000 hydrated tweets.
+Started IO
+Finished IO
+Saved 344000 hydrated tweets.
+Started IO
+Finished IO
+Saved 345000 hydrated tweets.
+Started IO
+Finished IO
+Saved 346000 hydrated tweets.
+Started IO
+Finished IO
+Saved 347000 hydrated tweets.
+Started IO
+Finished IO
+Saved 348000 hydrated tweets.
+Started IO
+Finished IO
+Saved 349000 hydrated tweets.
+Started IO
+Finished IO
+Saved 350000 hydrated tweets.
+Started IO
+Finished IO
+Saved 351000 hydrated tweets.
+Started IO
+Finished IO
+Saved 352000 hydrated tweets.
+Started IO
+Finished IO
+Saved 353000 hydrated tweets.
+Started IO
+Finished IO
+Saved 354000 hydrated tweets.
+Started IO
+Finished IO
+Saved 355000 hydrated tweets.
+Started IO
+Finished IO
+Saved 356000 hydrated tweets.
+Started IO
+Finished IO
+Saved 357000 hydrated tweets.
+Started IO
+Finished IO
+Saved 358000 hydrated tweets.
+Started IO
+Finished IO
+Saved 359000 hydrated tweets.
+Started IO
+Finished IO
+Saved 360000 hydrated tweets.
+Started IO
+Finished IO
+Saved 361000 hydrated tweets.
+Started IO
+Finished IO
+Saved 362000 hydrated tweets.
+Started IO
+Finished IO
+Saved 363000 hydrated tweets.
+Started IO
+Finished IO
+Saved 364000 hydrated tweets.
+Started IO
+Finished IO
+Saved 365000 hydrated tweets.
+Started IO
+Finished IO
+Saved 366000 hydrated tweets.
+Started IO
+Finished IO
+Saved 367000 hydrated tweets.
+Started IO
+Finished IO
+Saved 368000 hydrated tweets.
+Started IO
+Finished IO
+Saved 369000 hydrated tweets.
+Started IO
+Finished IO
+Saved 370000 hydrated tweets.
+Started IO
+Finished IO
+Saved 371000 hydrated tweets.
+Started IO
+Finished IO
+Saved 372000 hydrated tweets.
+Started IO
+Finished IO
+Saved 373000 hydrated tweets.
+Started IO
+Finished IO
+Saved 374000 hydrated tweets.
+Started IO
+Finished IO
+Saved 375000 hydrated tweets.
+Started IO
+Finished IO
+Saved 376000 hydrated tweets.
+Started IO
+Finished IO
+Saved 377000 hydrated tweets.
+Started IO
+Finished IO
+Saved 378000 hydrated tweets.
+Started IO
+Finished IO
+Saved 379000 hydrated tweets.
+Started IO
+Finished IO
+Saved 380000 hydrated tweets.
+Started IO
+Finished IO
+Saved 381000 hydrated tweets.
+Started IO
+Finished IO
+Saved 382000 hydrated tweets.
+Started IO
+Finished IO
+Saved 383000 hydrated tweets.
+Started IO
+Finished IO
+Saved 384000 hydrated tweets.
+Started IO
+Finished IO
+Saved 385000 hydrated tweets.
+Started IO
+Finished IO
+Saved 386000 hydrated tweets.
+Started IO
+Finished IO
+Saved 387000 hydrated tweets.
+Started IO
+Finished IO
+Saved 388000 hydrated tweets.
+Started IO
+Finished IO
+Saved 389000 hydrated tweets.
+Started IO
+Finished IO
+Saved 390000 hydrated tweets.
+Started IO
+Finished IO
+Saved 391000 hydrated tweets.
+Started IO
+Finished IO
+Saved 392000 hydrated tweets.
+Started IO
+Finished IO
+Saved 393000 hydrated tweets.
+Started IO
+Finished IO
+Saved 394000 hydrated tweets.
+Started IO
+Finished IO
+Saved 395000 hydrated tweets.
+Started IO
+Finished IO
+Saved 396000 hydrated tweets.
+Started IO
+Finished IO
+Saved 397000 hydrated tweets.
+Started IO
+Finished IO
+Saved 398000 hydrated tweets.
+Started IO
+Finished IO
+Saved 399000 hydrated tweets.
+Started IO
+Finished IO
+Saved 400000 hydrated tweets.
+Started IO
+Finished IO
+Saved 401000 hydrated tweets.
+Started IO
+Finished IO
+Saved 402000 hydrated tweets.
+Started IO
+Finished IO
+Saved 403000 hydrated tweets.
+Started IO
+Finished IO
+Saved 404000 hydrated tweets.
+Started IO
+Finished IO
+Saved 405000 hydrated tweets.
+Started IO
+Finished IO
+Saved 406000 hydrated tweets.
+Started IO
+Finished IO
+Saved 407000 hydrated tweets.
+Started IO
+Finished IO
+Saved 408000 hydrated tweets.
+Started IO
+Finished IO
+Saved 409000 hydrated tweets.
+Started IO
+Finished IO
+Saved 410000 hydrated tweets.
+Started IO
+Finished IO
+Saved 411000 hydrated tweets.
+Started IO
+Finished IO
+Saved 412000 hydrated tweets.
+Started IO
+Finished IO
+Saved 413000 hydrated tweets.
+Started IO
+Finished IO
+Saved 414000 hydrated tweets.
+Started IO
+Finished IO
+Saved 415000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 302.9774785041809 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 416000 hydrated tweets.
+Started IO
+Finished IO
+Saved 417000 hydrated tweets.
+Started IO
+Finished IO
+Saved 418000 hydrated tweets.
+Started IO
+Finished IO
+Saved 419000 hydrated tweets.
+Started IO
+Finished IO
+Saved 420000 hydrated tweets.
+Started IO
+Finished IO
+Saved 421000 hydrated tweets.
+Started IO
+Finished IO
+Saved 422000 hydrated tweets.
+Started IO
+Finished IO
+Saved 423000 hydrated tweets.
+Started IO
+Finished IO
+Saved 424000 hydrated tweets.
+Started IO
+Finished IO
+Saved 425000 hydrated tweets.
+Started IO
+Finished IO
+Saved 426000 hydrated tweets.
+Started IO
+Finished IO
+Saved 427000 hydrated tweets.
+Started IO
+Finished IO
+Saved 428000 hydrated tweets.
+Started IO
+Finished IO
+Saved 429000 hydrated tweets.
+Started IO
+Finished IO
+Saved 430000 hydrated tweets.
+Started IO
+Finished IO
+Saved 431000 hydrated tweets.
+Started IO
+Finished IO
+Saved 432000 hydrated tweets.
+Started IO
+Finished IO
+Saved 433000 hydrated tweets.
+Started IO
+Finished IO
+Saved 434000 hydrated tweets.
+Started IO
+Finished IO
+Saved 435000 hydrated tweets.
+Started IO
+Finished IO
+Saved 436000 hydrated tweets.
+Started IO
+Finished IO
+Saved 437000 hydrated tweets.
+Started IO
+Finished IO
+Saved 438000 hydrated tweets.
+Started IO
+Finished IO
+Saved 439000 hydrated tweets.
+Started IO
+Finished IO
+Saved 440000 hydrated tweets.
+Started IO
+Finished IO
+Saved 441000 hydrated tweets.
+Started IO
+Finished IO
+Saved 442000 hydrated tweets.
+Started IO
+Finished IO
+Saved 443000 hydrated tweets.
+Started IO
+Finished IO
+Saved 444000 hydrated tweets.
+Started IO
+Finished IO
+Saved 445000 hydrated tweets.
+Started IO
+Finished IO
+Saved 446000 hydrated tweets.
+Started IO
+Finished IO
+Saved 447000 hydrated tweets.
+Started IO
+Finished IO
+Saved 448000 hydrated tweets.
+Started IO
+Finished IO
+Saved 449000 hydrated tweets.
+Started IO
+Finished IO
+Saved 450000 hydrated tweets.
+Started IO
+Finished IO
+Saved 451000 hydrated tweets.
+Started IO
+Finished IO
+Saved 452000 hydrated tweets.
+Started IO
+Finished IO
+Saved 453000 hydrated tweets.
+Started IO
+Finished IO
+Saved 454000 hydrated tweets.
+Started IO
+Finished IO
+Saved 455000 hydrated tweets.
+Started IO
+Finished IO
+Saved 456000 hydrated tweets.
+Started IO
+Finished IO
+Saved 457000 hydrated tweets.
+Started IO
+Finished IO
+Saved 458000 hydrated tweets.
+Started IO
+Finished IO
+Saved 459000 hydrated tweets.
+Started IO
+Finished IO
+Saved 460000 hydrated tweets.
+Started IO
+Finished IO
+Saved 461000 hydrated tweets.
+Started IO
+Finished IO
+Saved 462000 hydrated tweets.
+Started IO
+Finished IO
+Saved 463000 hydrated tweets.
+Started IO
+Finished IO
+Saved 464000 hydrated tweets.
+Started IO
+Finished IO
+Saved 465000 hydrated tweets.
+Started IO
+Finished IO
+Saved 466000 hydrated tweets.
+Started IO
+Finished IO
+Saved 467000 hydrated tweets.
+Started IO
+Finished IO
+Saved 468000 hydrated tweets.
+Started IO
+Finished IO
+Saved 469000 hydrated tweets.
+Started IO
+Finished IO
+Saved 470000 hydrated tweets.
+Started IO
+Finished IO
+Saved 471000 hydrated tweets.
+Started IO
+Finished IO
+Saved 472000 hydrated tweets.
+Started IO
+Finished IO
+Saved 473000 hydrated tweets.
+Started IO
+Finished IO
+Saved 474000 hydrated tweets.
+Started IO
+Finished IO
+Saved 475000 hydrated tweets.
+Started IO
+Finished IO
+Saved 476000 hydrated tweets.
+Started IO
+Finished IO
+Saved 477000 hydrated tweets.
+Started IO
+Finished IO
+Saved 478000 hydrated tweets.
+Started IO
+Finished IO
+Saved 479000 hydrated tweets.
+Started IO
+Finished IO
+Saved 480000 hydrated tweets.
+Started IO
+Finished IO
+Saved 481000 hydrated tweets.
+Started IO
+Finished IO
+Saved 482000 hydrated tweets.
+Started IO
+Finished IO
+Saved 483000 hydrated tweets.
+Started IO
+Finished IO
+Saved 484000 hydrated tweets.
+Started IO
+Finished IO
+Saved 485000 hydrated tweets.
+Started IO
+Finished IO
+Saved 486000 hydrated tweets.
+Started IO
+Finished IO
+Saved 487000 hydrated tweets.
+Started IO
+Finished IO
+Saved 488000 hydrated tweets.
+Started IO
+Finished IO
+Saved 489000 hydrated tweets.
+Started IO
+Finished IO
+Saved 490000 hydrated tweets.
+Started IO
+Finished IO
+Saved 491000 hydrated tweets.
+Started IO
+Finished IO
+Saved 492000 hydrated tweets.
+Started IO
+Finished IO
+Saved 493000 hydrated tweets.
+Started IO
+Finished IO
+Saved 494000 hydrated tweets.
+Started IO
+Finished IO
+Saved 495000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 303.11989736557007 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 496000 hydrated tweets.
+Started IO
+Finished IO
+Saved 497000 hydrated tweets.
+Started IO
+Finished IO
+Saved 498000 hydrated tweets.
+Started IO
+Finished IO
+Saved 499000 hydrated tweets.
+Started IO
+Finished IO
+Saved 500000 hydrated tweets.
+Started IO
+Finished IO
+Saved 501000 hydrated tweets.
+Started IO
+Finished IO
+Saved 502000 hydrated tweets.
+Started IO
+Finished IO
+Saved 503000 hydrated tweets.
+Started IO
+Finished IO
+Saved 504000 hydrated tweets.
+Started IO
+Finished IO
+Saved 505000 hydrated tweets.
+Started IO
+Finished IO
+Saved 506000 hydrated tweets.
+Started IO
+Finished IO
+Saved 507000 hydrated tweets.
+Started IO
+Finished IO
+Saved 508000 hydrated tweets.
+Started IO
+Finished IO
+Saved 509000 hydrated tweets.
+Started IO
+Finished IO
+Saved 510000 hydrated tweets.
+Started IO
+Finished IO
+Saved 511000 hydrated tweets.
+Started IO
+Finished IO
+Saved 512000 hydrated tweets.
+Started IO
+Finished IO
+Saved 513000 hydrated tweets.
+Started IO
+Finished IO
+Saved 514000 hydrated tweets.
+Started IO
+Finished IO
+Saved 515000 hydrated tweets.
+Started IO
+Finished IO
+Saved 516000 hydrated tweets.
+Started IO
+Finished IO
+Saved 517000 hydrated tweets.
+Started IO
+Finished IO
+Saved 518000 hydrated tweets.
+Started IO
+Finished IO
+Saved 519000 hydrated tweets.
+Started IO
+Finished IO
+Saved 520000 hydrated tweets.
+Started IO
+Finished IO
+Saved 521000 hydrated tweets.
+Started IO
+Finished IO
+Saved 522000 hydrated tweets.
+Started IO
+Finished IO
+Saved 523000 hydrated tweets.
+Started IO
+Finished IO
+Saved 524000 hydrated tweets.
+Started IO
+Finished IO
+Saved 525000 hydrated tweets.
+Started IO
+Finished IO
+Saved 526000 hydrated tweets.
+Started IO
+Finished IO
+Saved 527000 hydrated tweets.
+Started IO
+Finished IO
+Saved 528000 hydrated tweets.
+Started IO
+Finished IO
+Saved 529000 hydrated tweets.
+Started IO
+Finished IO
+Saved 530000 hydrated tweets.
+Started IO
+Finished IO
+Saved 531000 hydrated tweets.
+Started IO
+Finished IO
+Saved 532000 hydrated tweets.
+Started IO
+Finished IO
+Saved 533000 hydrated tweets.
+Started IO
+Finished IO
+Saved 534000 hydrated tweets.
+Started IO
+Finished IO
+Saved 535000 hydrated tweets.
+Started IO
+Finished IO
+Saved 536000 hydrated tweets.
+Started IO
+Finished IO
+Saved 537000 hydrated tweets.
+Started IO
+Finished IO
+Saved 538000 hydrated tweets.
+Started IO
+Finished IO
+Saved 539000 hydrated tweets.
+Started IO
+Finished IO
+Saved 540000 hydrated tweets.
+Started IO
+Finished IO
+Saved 541000 hydrated tweets.
+Started IO
+Finished IO
+Saved 542000 hydrated tweets.
+Started IO
+Finished IO
+Saved 543000 hydrated tweets.
+Started IO
+Finished IO
+Saved 544000 hydrated tweets.
+Started IO
+Finished IO
+Saved 545000 hydrated tweets.
+Started IO
+Finished IO
+Saved 546000 hydrated tweets.
+Started IO
+Finished IO
+Saved 547000 hydrated tweets.
+Started IO
+Finished IO
+Saved 548000 hydrated tweets.
+Started IO
+Finished IO
+Saved 549000 hydrated tweets.
+Started IO
+Finished IO
+Saved 550000 hydrated tweets.
+Started IO
+Finished IO
+Saved 551000 hydrated tweets.
+Started IO
+Finished IO
+Saved 552000 hydrated tweets.
+Started IO
+Finished IO
+Saved 553000 hydrated tweets.
+Started IO
+Finished IO
+Saved 554000 hydrated tweets.
+Started IO
+Finished IO
+Saved 555000 hydrated tweets.
+Started IO
+Finished IO
+Saved 556000 hydrated tweets.
+Started IO
+Finished IO
+Saved 557000 hydrated tweets.
+Started IO
+Finished IO
+Saved 558000 hydrated tweets.
+Started IO
+Finished IO
+Saved 559000 hydrated tweets.
+Started IO
+Finished IO
+Saved 560000 hydrated tweets.
+Started IO
+Finished IO
+Saved 561000 hydrated tweets.
+Started IO
+Finished IO
+Saved 562000 hydrated tweets.
+Started IO
+Finished IO
+Saved 563000 hydrated tweets.
+Started IO
+Finished IO
+Saved 564000 hydrated tweets.
+Started IO
+Finished IO
+Saved 565000 hydrated tweets.
+Started IO
+Finished IO
+Saved 566000 hydrated tweets.
+Started IO
+Finished IO
+Saved 567000 hydrated tweets.
+Started IO
+Finished IO
+Saved 568000 hydrated tweets.
+Started IO
+Finished IO
+Saved 569000 hydrated tweets.
+Started IO
+Finished IO
+Saved 570000 hydrated tweets.
+Started IO
+Finished IO
+Saved 571000 hydrated tweets.
+Started IO
+Finished IO
+Saved 572000 hydrated tweets.
+Started IO
+Finished IO
+Saved 573000 hydrated tweets.
+Started IO
+Finished IO
+Saved 574000 hydrated tweets.
+Started IO
+Finished IO
+Saved 575000 hydrated tweets.
+Started IO
+Finished IO
+Saved 576000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 302.5114712715149 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 577000 hydrated tweets.
+Started IO
+Finished IO
+Saved 578000 hydrated tweets.
+Started IO
+Finished IO
+Saved 579000 hydrated tweets.
+Started IO
+Finished IO
+Saved 580000 hydrated tweets.
+Started IO
+Finished IO
+Saved 581000 hydrated tweets.
+Started IO
+Finished IO
+Saved 582000 hydrated tweets.
+Started IO
+Finished IO
+Saved 583000 hydrated tweets.
+Started IO
+Finished IO
+Saved 584000 hydrated tweets.
+Started IO
+Finished IO
+Saved 585000 hydrated tweets.
+Started IO
+Finished IO
+Saved 586000 hydrated tweets.
+Started IO
+Finished IO
+Saved 587000 hydrated tweets.
+Started IO
+Finished IO
+Saved 588000 hydrated tweets.
+Started IO
+Finished IO
+Saved 589000 hydrated tweets.
+Started IO
+Finished IO
+Saved 590000 hydrated tweets.
+Started IO
+Finished IO
+Saved 591000 hydrated tweets.
+Started IO
+Finished IO
+Saved 592000 hydrated tweets.
+Started IO
+Finished IO
+Saved 593000 hydrated tweets.
+Started IO
+Finished IO
+Saved 594000 hydrated tweets.
+Started IO
+Finished IO
+Saved 595000 hydrated tweets.
+Started IO
+Finished IO
+Saved 596000 hydrated tweets.
+Started IO
+Finished IO
+Saved 597000 hydrated tweets.
+Started IO
+Finished IO
+Saved 598000 hydrated tweets.
+Started IO
+Finished IO
+Saved 599000 hydrated tweets.
+Started IO
+Finished IO
+Saved 600000 hydrated tweets.
+Started IO
+Finished IO
+Saved 601000 hydrated tweets.
+Started IO
+Finished IO
+Saved 602000 hydrated tweets.
+Started IO
+Finished IO
+Saved 603000 hydrated tweets.
+Started IO
+Finished IO
+Saved 604000 hydrated tweets.
+Started IO
+Finished IO
+Saved 605000 hydrated tweets.
+Started IO
+Finished IO
+Saved 606000 hydrated tweets.
+Started IO
+Finished IO
+Saved 607000 hydrated tweets.
+Started IO
+Finished IO
+Saved 608000 hydrated tweets.
+Started IO
+Finished IO
+Saved 609000 hydrated tweets.
+Started IO
+Finished IO
+Saved 610000 hydrated tweets.
+Started IO
+Finished IO
+Saved 611000 hydrated tweets.
+Started IO
+Finished IO
+Saved 612000 hydrated tweets.
+Started IO
+Finished IO
+Saved 613000 hydrated tweets.
+Started IO
+Finished IO
+Saved 614000 hydrated tweets.
+Started IO
+Finished IO
+Saved 615000 hydrated tweets.
+Started IO
+Finished IO
+Saved 616000 hydrated tweets.
+Started IO
+Finished IO
+Saved 617000 hydrated tweets.
+Started IO
+Finished IO
+Saved 618000 hydrated tweets.
+Started IO
+Finished IO
+Saved 619000 hydrated tweets.
+Started IO
+Finished IO
+Saved 620000 hydrated tweets.
+Started IO
+Finished IO
+Saved 621000 hydrated tweets.
+Started IO
+Finished IO
+Saved 622000 hydrated tweets.
+Started IO
+Finished IO
+Saved 623000 hydrated tweets.
+Started IO
+Finished IO
+Saved 624000 hydrated tweets.
+Started IO
+Finished IO
+Saved 625000 hydrated tweets.
+Started IO
+Finished IO
+Saved 626000 hydrated tweets.
+Started IO
+Finished IO
+Saved 627000 hydrated tweets.
+Started IO
+Finished IO
+Saved 628000 hydrated tweets.
+Started IO
+Finished IO
+Saved 629000 hydrated tweets.
+Started IO
+Finished IO
+Saved 630000 hydrated tweets.
+Started IO
+Finished IO
+Saved 631000 hydrated tweets.
+Started IO
+Finished IO
+Saved 632000 hydrated tweets.
+Started IO
+Finished IO
+Saved 633000 hydrated tweets.
+Started IO
+Finished IO
+Saved 634000 hydrated tweets.
+Started IO
+Finished IO
+Saved 635000 hydrated tweets.
+Started IO
+Finished IO
+Saved 636000 hydrated tweets.
+Started IO
+Finished IO
+Saved 637000 hydrated tweets.
+Started IO
+Finished IO
+Saved 638000 hydrated tweets.
+Started IO
+Finished IO
+Saved 639000 hydrated tweets.
+Started IO
+Finished IO
+Saved 640000 hydrated tweets.
+Started IO
+Finished IO
+Saved 641000 hydrated tweets.
+Started IO
+Finished IO
+Saved 642000 hydrated tweets.
+Started IO
+Finished IO
+Saved 643000 hydrated tweets.
+Started IO
+Finished IO
+Saved 644000 hydrated tweets.
+Started IO
+Finished IO
+Saved 645000 hydrated tweets.
+Started IO
+Finished IO
+Saved 646000 hydrated tweets.
+Started IO
+Finished IO
+Saved 647000 hydrated tweets.
+Started IO
+Finished IO
+Saved 648000 hydrated tweets.
+Started IO
+Finished IO
+Saved 649000 hydrated tweets.
+Started IO
+Finished IO
+Saved 650000 hydrated tweets.
+Started IO
+Finished IO
+Saved 651000 hydrated tweets.
+Started IO
+Finished IO
+Saved 652000 hydrated tweets.
+Started IO
+Finished IO
+Saved 653000 hydrated tweets.
+Started IO
+Finished IO
+Saved 654000 hydrated tweets.
+Started IO
+Finished IO
+Saved 655000 hydrated tweets.
+Started IO
+Finished IO
+Saved 656000 hydrated tweets.
+Started IO
+Finished IO
+Saved 657000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 297.44827795028687 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 658000 hydrated tweets.
+Started IO
+Finished IO
+Saved 659000 hydrated tweets.
+Started IO
+Finished IO
+Saved 660000 hydrated tweets.
+Started IO
+Finished IO
+Saved 661000 hydrated tweets.
+Started IO
+Finished IO
+Saved 662000 hydrated tweets.
+Started IO
+Finished IO
+Saved 663000 hydrated tweets.
+Started IO
+Finished IO
+Saved 664000 hydrated tweets.
+Started IO
+Finished IO
+Saved 665000 hydrated tweets.
+Started IO
+Finished IO
+Saved 666000 hydrated tweets.
+Started IO
+Finished IO
+Saved 667000 hydrated tweets.
+Started IO
+Finished IO
+Saved 668000 hydrated tweets.
+Started IO
+Finished IO
+Saved 669000 hydrated tweets.
+Started IO
+Finished IO
+Saved 670000 hydrated tweets.
+Started IO
+Finished IO
+Saved 671000 hydrated tweets.
+Started IO
+Finished IO
+Saved 672000 hydrated tweets.
+Started IO
+Finished IO
+Saved 673000 hydrated tweets.
+Started IO
+Finished IO
+Saved 674000 hydrated tweets.
+Started IO
+Finished IO
+Saved 675000 hydrated tweets.
+Started IO
+Finished IO
+Saved 676000 hydrated tweets.
+Started IO
+Finished IO
+Saved 677000 hydrated tweets.
+Started IO
+Finished IO
+Saved 678000 hydrated tweets.
+Started IO
+Finished IO
+Saved 679000 hydrated tweets.
+Started IO
+Finished IO
+Saved 680000 hydrated tweets.
+Started IO
+Finished IO
+Saved 681000 hydrated tweets.
+Started IO
+Finished IO
+Saved 682000 hydrated tweets.
+Started IO
+Finished IO
+Saved 683000 hydrated tweets.
+Started IO
+Finished IO
+Saved 684000 hydrated tweets.
+Started IO
+Finished IO
+Saved 685000 hydrated tweets.
+Started IO
+Finished IO
+Saved 686000 hydrated tweets.
+Started IO
+Finished IO
+Saved 687000 hydrated tweets.
+Started IO
+Finished IO
+Saved 688000 hydrated tweets.
+Started IO
+Finished IO
+Saved 689000 hydrated tweets.
+Started IO
+Finished IO
+Saved 690000 hydrated tweets.
+Started IO
+Finished IO
+Saved 691000 hydrated tweets.
+Started IO
+Finished IO
+Saved 692000 hydrated tweets.
+Started IO
+Finished IO
+Saved 693000 hydrated tweets.
+Started IO
+Finished IO
+Saved 694000 hydrated tweets.
+Started IO
+Finished IO
+Saved 695000 hydrated tweets.
+Started IO
+Finished IO
+Saved 696000 hydrated tweets.
+Started IO
+Finished IO
+Saved 697000 hydrated tweets.
+Started IO
+Finished IO
+Saved 698000 hydrated tweets.
+Started IO
+Finished IO
+Saved 699000 hydrated tweets.
+Started IO
+Finished IO
+Saved 700000 hydrated tweets.
+Started IO
+Finished IO
+Saved 701000 hydrated tweets.
+Started IO
+Finished IO
+Saved 702000 hydrated tweets.
+Started IO
+Finished IO
+Saved 703000 hydrated tweets.
+Started IO
+Finished IO
+Saved 704000 hydrated tweets.
+Started IO
+Finished IO
+Saved 705000 hydrated tweets.
+Started IO
+Finished IO
+Saved 706000 hydrated tweets.
+Started IO
+Finished IO
+Saved 707000 hydrated tweets.
+Started IO
+Finished IO
+Saved 708000 hydrated tweets.
+Started IO
+Finished IO
+Saved 709000 hydrated tweets.
+Started IO
+Finished IO
+Saved 710000 hydrated tweets.
+Started IO
+Finished IO
+Saved 711000 hydrated tweets.
+Started IO
+Finished IO
+Saved 712000 hydrated tweets.
+Started IO
+Finished IO
+Saved 713000 hydrated tweets.
+Started IO
+Finished IO
+Saved 714000 hydrated tweets.
+Started IO
+Finished IO
+Saved 715000 hydrated tweets.
+Started IO
+Finished IO
+Saved 716000 hydrated tweets.
+Started IO
+Finished IO
+Saved 717000 hydrated tweets.
+Started IO
+Finished IO
+Saved 718000 hydrated tweets.
+Started IO
+Finished IO
+Saved 719000 hydrated tweets.
+Started IO
+Finished IO
+Saved 720000 hydrated tweets.
+Started IO
+Finished IO
+Saved 721000 hydrated tweets.
+Started IO
+Finished IO
+Saved 722000 hydrated tweets.
+Started IO
+Finished IO
+Saved 723000 hydrated tweets.
+Started IO
+Finished IO
+Saved 724000 hydrated tweets.
+Started IO
+Finished IO
+Saved 725000 hydrated tweets.
+Started IO
+Finished IO
+Saved 726000 hydrated tweets.
+Started IO
+Finished IO
+Saved 727000 hydrated tweets.
+Started IO
+Finished IO
+Saved 728000 hydrated tweets.
+Started IO
+Finished IO
+Saved 729000 hydrated tweets.
+Started IO
+Finished IO
+Saved 730000 hydrated tweets.
+Started IO
+Finished IO
+Saved 731000 hydrated tweets.
+Started IO
+Finished IO
+Saved 732000 hydrated tweets.
+Started IO
+Finished IO
+Saved 733000 hydrated tweets.
+Started IO
+Finished IO
+Saved 734000 hydrated tweets.
+Started IO
+Finished IO
+Saved 735000 hydrated tweets.
+Started IO
+Finished IO
+Saved 736000 hydrated tweets.
+Started IO
+Finished IO
+Saved 737000 hydrated tweets.
+Started IO
+Finished IO
+Saved 738000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 295.63705229759216 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 739000 hydrated tweets.
+Started IO
+Finished IO
+Saved 740000 hydrated tweets.
+Started IO
+Finished IO
+Saved 741000 hydrated tweets.
+Started IO
+Finished IO
+Saved 742000 hydrated tweets.
+Started IO
+Finished IO
+Saved 743000 hydrated tweets.
+Started IO
+Finished IO
+Saved 744000 hydrated tweets.
+Started IO
+Finished IO
+Saved 745000 hydrated tweets.
+Started IO
+Finished IO
+Saved 746000 hydrated tweets.
+Started IO
+Finished IO
+Saved 747000 hydrated tweets.
+Started IO
+Finished IO
+Saved 748000 hydrated tweets.
+Started IO
+Finished IO
+Saved 749000 hydrated tweets.
+Started IO
+Finished IO
+Saved 750000 hydrated tweets.
+Started IO
+Finished IO
+Saved 751000 hydrated tweets.
+Started IO
+Finished IO
+Saved 752000 hydrated tweets.
+Started IO
+Finished IO
+Saved 753000 hydrated tweets.
+Started IO
+Finished IO
+Saved 754000 hydrated tweets.
+Started IO
+Finished IO
+Saved 755000 hydrated tweets.
+Started IO
+Finished IO
+Saved 756000 hydrated tweets.
+Started IO
+Finished IO
+Saved 757000 hydrated tweets.
+Started IO
+Finished IO
+Saved 758000 hydrated tweets.
+Started IO
+Finished IO
+Saved 759000 hydrated tweets.
+Started IO
+Finished IO
+Saved 760000 hydrated tweets.
+Started IO
+Finished IO
+Saved 761000 hydrated tweets.
+Started IO
+Finished IO
+Saved 762000 hydrated tweets.
+Started IO
+Finished IO
+Saved 763000 hydrated tweets.
+Started IO
+Finished IO
+Saved 764000 hydrated tweets.
+Started IO
+Finished IO
+Saved 765000 hydrated tweets.
+Started IO
+Finished IO
+Saved 766000 hydrated tweets.
+Started IO
+Finished IO
+Saved 767000 hydrated tweets.
+Started IO
+Finished IO
+Saved 768000 hydrated tweets.
+Started IO
+Finished IO
+Saved 769000 hydrated tweets.
+Started IO
+Finished IO
+Saved 770000 hydrated tweets.
+Started IO
+Finished IO
+Saved 771000 hydrated tweets.
+Started IO
+Finished IO
+Saved 772000 hydrated tweets.
+Started IO
+Finished IO
+Saved 773000 hydrated tweets.
+Started IO
+Finished IO
+Saved 774000 hydrated tweets.
+Started IO
+Finished IO
+Saved 775000 hydrated tweets.
+Started IO
+Finished IO
+Saved 776000 hydrated tweets.
+Started IO
+Finished IO
+Saved 777000 hydrated tweets.
+Started IO
+Finished IO
+Saved 778000 hydrated tweets.
+Started IO
+Finished IO
+Saved 779000 hydrated tweets.
+Started IO
+Finished IO
+Saved 780000 hydrated tweets.
+Started IO
+Finished IO
+Saved 781000 hydrated tweets.
+Started IO
+Finished IO
+Saved 782000 hydrated tweets.
+Started IO
+Finished IO
+Saved 783000 hydrated tweets.
+Started IO
+Finished IO
+Saved 784000 hydrated tweets.
+Started IO
+Finished IO
+Saved 785000 hydrated tweets.
+Started IO
+Finished IO
+Saved 786000 hydrated tweets.
+Started IO
+Finished IO
+Saved 787000 hydrated tweets.
+Started IO
+Finished IO
+Saved 788000 hydrated tweets.
+Started IO
+Finished IO
+Saved 789000 hydrated tweets.
+Started IO
+Finished IO
+Saved 790000 hydrated tweets.
+Started IO
+Finished IO
+Saved 791000 hydrated tweets.
+Started IO
+Finished IO
+Saved 792000 hydrated tweets.
+Started IO
+Finished IO
+Saved 793000 hydrated tweets.
+Started IO
+Finished IO
+Saved 794000 hydrated tweets.
+Started IO
+Finished IO
+Saved 795000 hydrated tweets.
+Started IO
+Finished IO
+Saved 796000 hydrated tweets.
+Started IO
+Finished IO
+Saved 797000 hydrated tweets.
+Started IO
+Finished IO
+Saved 798000 hydrated tweets.
+Started IO
+Finished IO
+Saved 799000 hydrated tweets.
+Started IO
+Finished IO
+Saved 800000 hydrated tweets.
+Started IO
+Finished IO
+Saved 801000 hydrated tweets.
+Started IO
+Finished IO
+Saved 802000 hydrated tweets.
+Started IO
+Finished IO
+Saved 803000 hydrated tweets.
+Started IO
+Finished IO
+Saved 804000 hydrated tweets.
+Started IO
+Finished IO
+Saved 805000 hydrated tweets.
+Started IO
+Finished IO
+Saved 806000 hydrated tweets.
+Started IO
+Finished IO
+Saved 807000 hydrated tweets.
+Started IO
+Finished IO
+Saved 808000 hydrated tweets.
+Started IO
+Finished IO
+Saved 809000 hydrated tweets.
+Started IO
+Finished IO
+Saved 810000 hydrated tweets.
+Started IO
+Finished IO
+Saved 811000 hydrated tweets.
+Started IO
+Finished IO
+Saved 812000 hydrated tweets.
+Started IO
+Finished IO
+Saved 813000 hydrated tweets.
+Started IO
+Finished IO
+Saved 814000 hydrated tweets.
+Started IO
+Finished IO
+Saved 815000 hydrated tweets.
+Started IO
+Finished IO
+Saved 816000 hydrated tweets.
+Started IO
+Finished IO
+Saved 817000 hydrated tweets.
+Started IO
+Finished IO
+Saved 818000 hydrated tweets.
+Started IO
+Finished IO
+Saved 819000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 292.95555901527405 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 820000 hydrated tweets.
+Started IO
+Finished IO
+Saved 821000 hydrated tweets.
+Started IO
+Finished IO
+Saved 822000 hydrated tweets.
+Started IO
+Finished IO
+Saved 823000 hydrated tweets.
+Started IO
+Finished IO
+Saved 824000 hydrated tweets.
+Started IO
+Finished IO
+Saved 825000 hydrated tweets.
+Started IO
+Finished IO
+Saved 826000 hydrated tweets.
+Started IO
+Finished IO
+Saved 827000 hydrated tweets.
+Started IO
+Finished IO
+Saved 828000 hydrated tweets.
+Started IO
+Finished IO
+Saved 829000 hydrated tweets.
+Started IO
+Finished IO
+Saved 830000 hydrated tweets.
+Started IO
+Finished IO
+Saved 831000 hydrated tweets.
+Started IO
+Finished IO
+Saved 832000 hydrated tweets.
+Started IO
+Finished IO
+Saved 833000 hydrated tweets.
+Started IO
+Finished IO
+Saved 834000 hydrated tweets.
+Started IO
+Finished IO
+Saved 835000 hydrated tweets.
+Started IO
+Finished IO
+Saved 836000 hydrated tweets.
+Started IO
+Finished IO
+Saved 837000 hydrated tweets.
+Started IO
+Finished IO
+Saved 838000 hydrated tweets.
+Started IO
+Finished IO
+Saved 839000 hydrated tweets.
+Started IO
+Finished IO
+Saved 840000 hydrated tweets.
+Started IO
+Finished IO
+Saved 841000 hydrated tweets.
+Started IO
+Finished IO
+Saved 842000 hydrated tweets.
+Started IO
+Finished IO
+Saved 843000 hydrated tweets.
+Started IO
+Finished IO
+Saved 844000 hydrated tweets.
+Started IO
+Finished IO
+Saved 845000 hydrated tweets.
+Started IO
+Finished IO
+Saved 846000 hydrated tweets.
+Started IO
+Finished IO
+Saved 847000 hydrated tweets.
+Started IO
+Finished IO
+Saved 848000 hydrated tweets.
+Started IO
+Finished IO
+Saved 849000 hydrated tweets.
+Started IO
+Finished IO
+Saved 850000 hydrated tweets.
+Started IO
+Finished IO
+Saved 851000 hydrated tweets.
+Started IO
+Finished IO
+Saved 852000 hydrated tweets.
+Started IO
+Finished IO
+Saved 853000 hydrated tweets.
+Started IO
+Finished IO
+Saved 854000 hydrated tweets.
+Started IO
+Finished IO
+Saved 855000 hydrated tweets.
+Started IO
+Finished IO
+Saved 856000 hydrated tweets.
+Started IO
+Finished IO
+Saved 857000 hydrated tweets.
+Started IO
+Finished IO
+Saved 858000 hydrated tweets.
+Started IO
+Finished IO
+Saved 859000 hydrated tweets.
+Started IO
+Finished IO
+Saved 860000 hydrated tweets.
+Started IO
+Finished IO
+Saved 861000 hydrated tweets.
+Started IO
+Finished IO
+Saved 862000 hydrated tweets.
+Started IO
+Finished IO
+Saved 863000 hydrated tweets.
+Started IO
+Finished IO
+Saved 864000 hydrated tweets.
+Started IO
+Finished IO
+Saved 865000 hydrated tweets.
+Started IO
+Finished IO
+Saved 866000 hydrated tweets.
+Started IO
+Finished IO
+Saved 867000 hydrated tweets.
+Started IO
+Finished IO
+Saved 868000 hydrated tweets.
+Started IO
+Finished IO
+Saved 869000 hydrated tweets.
+Started IO
+Finished IO
+Saved 870000 hydrated tweets.
+Started IO
+Finished IO
+Saved 871000 hydrated tweets.
+Started IO
+Finished IO
+Saved 872000 hydrated tweets.
+Started IO
+Finished IO
+Saved 873000 hydrated tweets.
+Started IO
+Finished IO
+Saved 874000 hydrated tweets.
+Started IO
+Finished IO
+Saved 875000 hydrated tweets.
+Started IO
+Finished IO
+Saved 876000 hydrated tweets.
+Started IO
+Finished IO
+Saved 877000 hydrated tweets.
+Started IO
+Finished IO
+Saved 878000 hydrated tweets.
+Started IO
+Finished IO
+Saved 879000 hydrated tweets.
+Started IO
+Finished IO
+Saved 880000 hydrated tweets.
+Started IO
+Finished IO
+Saved 881000 hydrated tweets.
+Started IO
+Finished IO
+Saved 882000 hydrated tweets.
+Started IO
+Finished IO
+Saved 883000 hydrated tweets.
+Started IO
+Finished IO
+Saved 884000 hydrated tweets.
+Started IO
+Finished IO
+Saved 885000 hydrated tweets.
+Started IO
+Finished IO
+Saved 886000 hydrated tweets.
+Started IO
+Finished IO
+Saved 887000 hydrated tweets.
+Started IO
+Finished IO
+Saved 888000 hydrated tweets.
+Started IO
+Finished IO
+Saved 889000 hydrated tweets.
+Started IO
+Finished IO
+Saved 890000 hydrated tweets.
+Started IO
+Finished IO
+Saved 891000 hydrated tweets.
+Started IO
+Finished IO
+Saved 892000 hydrated tweets.
+Started IO
+Finished IO
+Saved 893000 hydrated tweets.
+Started IO
+Finished IO
+Saved 894000 hydrated tweets.
+Started IO
+Finished IO
+Saved 895000 hydrated tweets.
+Started IO
+Finished IO
+Saved 896000 hydrated tweets.
+Started IO
+Finished IO
+Saved 897000 hydrated tweets.
+Started IO
+Finished IO
+Saved 898000 hydrated tweets.
+Started IO
+Finished IO
+Saved 899000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 297.58206510543823 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 900000 hydrated tweets.
+Started IO
+Finished IO
+Saved 901000 hydrated tweets.
+Started IO
+Finished IO
+Saved 902000 hydrated tweets.
+Started IO
+Finished IO
+Saved 903000 hydrated tweets.
+Started IO
+Finished IO
+Saved 904000 hydrated tweets.
+Started IO
+Finished IO
+Saved 905000 hydrated tweets.
+Started IO
+Finished IO
+Saved 906000 hydrated tweets.
+Started IO
+Finished IO
+Saved 907000 hydrated tweets.
+Started IO
+Finished IO
+Saved 908000 hydrated tweets.
+Started IO
+Finished IO
+Saved 909000 hydrated tweets.
+Started IO
+Finished IO
+Saved 910000 hydrated tweets.
+Started IO
+Finished IO
+Saved 911000 hydrated tweets.
+Started IO
+Finished IO
+Saved 912000 hydrated tweets.
+Started IO
+Finished IO
+Saved 913000 hydrated tweets.
+Started IO
+Finished IO
+Saved 914000 hydrated tweets.
+Started IO
+Finished IO
+Saved 915000 hydrated tweets.
+Started IO
+Finished IO
+Saved 916000 hydrated tweets.
+Started IO
+Finished IO
+Saved 917000 hydrated tweets.
+Started IO
+Finished IO
+Saved 918000 hydrated tweets.
+Started IO
+Finished IO
+Saved 919000 hydrated tweets.
+Started IO
+Finished IO
+Saved 920000 hydrated tweets.
+Started IO
+Finished IO
+Saved 921000 hydrated tweets.
+Started IO
+Finished IO
+Saved 922000 hydrated tweets.
+Started IO
+Finished IO
+Saved 923000 hydrated tweets.
+Started IO
+Finished IO
+Saved 924000 hydrated tweets.
+Started IO
+Finished IO
+Saved 925000 hydrated tweets.
+Started IO
+Finished IO
+Saved 926000 hydrated tweets.
+Started IO
+Finished IO
+Saved 927000 hydrated tweets.
+Started IO
+Finished IO
+Saved 928000 hydrated tweets.
+Started IO
+Finished IO
+Saved 929000 hydrated tweets.
+Started IO
+Finished IO
+Saved 930000 hydrated tweets.
+Started IO
+Finished IO
+Saved 931000 hydrated tweets.
+Started IO
+Finished IO
+Saved 932000 hydrated tweets.
+Started IO
+Finished IO
+Saved 933000 hydrated tweets.
+Started IO
+Finished IO
+Saved 934000 hydrated tweets.
+Started IO
+Finished IO
+Saved 935000 hydrated tweets.
+Started IO
+Finished IO
+Saved 936000 hydrated tweets.
+Started IO
+Finished IO
+Saved 937000 hydrated tweets.
+Started IO
+Finished IO
+Saved 938000 hydrated tweets.
+Started IO
+Finished IO
+Saved 939000 hydrated tweets.
+Started IO
+Finished IO
+Saved 940000 hydrated tweets.
+Started IO
+Finished IO
+Saved 941000 hydrated tweets.
+Started IO
+Finished IO
+Saved 942000 hydrated tweets.
+Started IO
+Finished IO
+Saved 943000 hydrated tweets.
+Started IO
+Finished IO
+Saved 944000 hydrated tweets.
+Started IO
+Finished IO
+Saved 945000 hydrated tweets.
+Started IO
+Finished IO
+Saved 946000 hydrated tweets.
+Started IO
+Finished IO
+Saved 947000 hydrated tweets.
+Started IO
+Finished IO
+Saved 948000 hydrated tweets.
+Started IO
+Finished IO
+Saved 949000 hydrated tweets.
+Started IO
+Finished IO
+Saved 950000 hydrated tweets.
+Started IO
+Finished IO
+Saved 951000 hydrated tweets.
+Started IO
+Finished IO
+Saved 952000 hydrated tweets.
+Started IO
+Finished IO
+Saved 953000 hydrated tweets.
+Started IO
+Finished IO
+Saved 954000 hydrated tweets.
+Started IO
+Finished IO
+Saved 955000 hydrated tweets.
+Started IO
+Finished IO
+Saved 956000 hydrated tweets.
+Started IO
+Finished IO
+Saved 957000 hydrated tweets.
+Started IO
+Finished IO
+Saved 958000 hydrated tweets.
+Started IO
+Finished IO
+Saved 959000 hydrated tweets.
+Started IO
+Finished IO
+Saved 960000 hydrated tweets.
+Started IO
+Finished IO
+Saved 961000 hydrated tweets.
+Started IO
+Finished IO
+Saved 962000 hydrated tweets.
+Started IO
+Finished IO
+Saved 963000 hydrated tweets.
+Started IO
+Finished IO
+Saved 964000 hydrated tweets.
+Started IO
+Finished IO
+Saved 965000 hydrated tweets.
+Started IO
+Finished IO
+Saved 966000 hydrated tweets.
+Started IO
+Finished IO
+Saved 967000 hydrated tweets.
+Started IO
+Finished IO
+Saved 968000 hydrated tweets.
+Started IO
+Finished IO
+Saved 969000 hydrated tweets.
+Started IO
+Finished IO
+Saved 970000 hydrated tweets.
+Started IO
+Finished IO
+Saved 971000 hydrated tweets.
+Started IO
+Finished IO
+Saved 972000 hydrated tweets.
+Started IO
+Finished IO
+Saved 973000 hydrated tweets.
+Started IO
+Finished IO
+Saved 974000 hydrated tweets.
+Started IO
+Finished IO
+Saved 975000 hydrated tweets.
+Started IO
+Finished IO
+Saved 976000 hydrated tweets.
+Started IO
+Finished IO
+Saved 977000 hydrated tweets.
+Started IO
+Finished IO
+Saved 978000 hydrated tweets.
+Started IO
+Finished IO
+Saved 979000 hydrated tweets.
+Started IO
+Finished IO
+Saved 980000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 299.4618022441864 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 981000 hydrated tweets.
+Started IO
+Finished IO
+Saved 982000 hydrated tweets.
+Started IO
+Finished IO
+Saved 983000 hydrated tweets.
+Started IO
+Finished IO
+Saved 984000 hydrated tweets.
+Started IO
+Finished IO
+Saved 985000 hydrated tweets.
+Started IO
+Finished IO
+Saved 986000 hydrated tweets.
+Started IO
+Finished IO
+Saved 987000 hydrated tweets.
+Started IO
+Finished IO
+Saved 988000 hydrated tweets.
+Started IO
+Finished IO
+Saved 989000 hydrated tweets.
+Started IO
+Finished IO
+Saved 990000 hydrated tweets.
+Started IO
+Finished IO
+Saved 991000 hydrated tweets.
+Started IO
+Finished IO
+Saved 992000 hydrated tweets.
+Started IO
+Finished IO
+Saved 993000 hydrated tweets.
+Started IO
+Finished IO
+Saved 994000 hydrated tweets.
+Started IO
+Finished IO
+Saved 995000 hydrated tweets.
+Started IO
+Finished IO
+Saved 996000 hydrated tweets.
+Started IO
+Finished IO
+Saved 997000 hydrated tweets.
+Started IO
+Finished IO
+Saved 998000 hydrated tweets.
+Started IO
+Finished IO
+Saved 999000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1000000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1001000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1002000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1003000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1004000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1005000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1006000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1007000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1008000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1009000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1010000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1011000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1012000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1013000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1014000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1015000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1016000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1017000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1018000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1019000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1020000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1021000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1022000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1023000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1024000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1025000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1026000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1027000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1028000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1029000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1030000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1031000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1032000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1033000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1034000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1035000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1036000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1037000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1038000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1039000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1040000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1041000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1042000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1043000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1044000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1045000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1046000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1047000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1048000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1049000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1050000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1051000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1052000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1053000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1054000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1055000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1056000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1057000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1058000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1059000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1060000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1061000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 293.0966749191284 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1062000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1063000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1064000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1065000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1066000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1067000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1068000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1069000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1070000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1071000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1072000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1073000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1074000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1075000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1076000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1077000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1078000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1079000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1080000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1081000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1082000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1083000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1084000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1085000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1086000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1087000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1088000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1089000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1090000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1091000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1092000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1093000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1094000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1095000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1096000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1097000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1098000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1099000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1100000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1101000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1102000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1103000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1104000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1105000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1106000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1107000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1108000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1109000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1110000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1111000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1112000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1113000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1114000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1115000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1116000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1117000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1118000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1119000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1120000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1121000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1122000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1123000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1124000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1125000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1126000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1127000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1128000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1129000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1130000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1131000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1132000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1133000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1134000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1135000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1136000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1137000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1138000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1139000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1140000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1141000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1142000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 290.0808336734772 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1143000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1144000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1145000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1146000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1147000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1148000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1149000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1150000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1151000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1152000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1153000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1154000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1155000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1156000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1157000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1158000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1159000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1160000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1161000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1162000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1163000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1164000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1165000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1166000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1167000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1168000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1169000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1170000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1171000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1172000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1173000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1174000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1175000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1176000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1177000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1178000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1179000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1180000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1181000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1182000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1183000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1184000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1185000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1186000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1187000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1188000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1189000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1190000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1191000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1192000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1193000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1194000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1195000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1196000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1197000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1198000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1199000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1200000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1201000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1202000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1203000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1204000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1205000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1206000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1207000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1208000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1209000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1210000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1211000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1212000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1213000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1214000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1215000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1216000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1217000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1218000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1219000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1220000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1221000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1222000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1223000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 295.8534710407257 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1224000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1225000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1226000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1227000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1228000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1229000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1230000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1231000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1232000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1233000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1234000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1235000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1236000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1237000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1238000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1239000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1240000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1241000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1242000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1243000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1244000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1245000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1246000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1247000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1248000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1249000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1250000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1251000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1252000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1253000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1254000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1255000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1256000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1257000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1258000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1259000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1260000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1261000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1262000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1263000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1264000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1265000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1266000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1267000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1268000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1269000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1270000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1271000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1272000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1273000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1274000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1275000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1276000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1277000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1278000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1279000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1280000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1281000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1282000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1283000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1284000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1285000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1286000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1287000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1288000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1289000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1290000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1291000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1292000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1293000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1294000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1295000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1296000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1297000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1298000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1299000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1300000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1301000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1302000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1303000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1304000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 294.26396203041077 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1305000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1306000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1307000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1308000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1309000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1310000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1311000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1312000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1313000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1314000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1315000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1316000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1317000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1318000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1319000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1320000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1321000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1322000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1323000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1324000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1325000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1326000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1327000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1328000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1329000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1330000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1331000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1332000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1333000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1334000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1335000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1336000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1337000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1338000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1339000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1340000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1341000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1342000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1343000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1344000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1345000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1346000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1347000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1348000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1349000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1350000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1351000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1352000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1353000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1354000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1355000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1356000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1357000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1358000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1359000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1360000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1361000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1362000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1363000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1364000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1365000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1366000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1367000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1368000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1369000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1370000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1371000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1372000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1373000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1374000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1375000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1376000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1377000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1378000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1379000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1380000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1381000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1382000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1383000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1384000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 278.16178369522095 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1385000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1386000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1387000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1388000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1389000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1390000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1391000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1392000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1393000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1394000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1395000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1396000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1397000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1398000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1399000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1400000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1401000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1402000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1403000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1404000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1405000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1406000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1407000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1408000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1409000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1410000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1411000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1412000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1413000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1414000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1415000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1416000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1417000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1418000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1419000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1420000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1421000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1422000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1423000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1424000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1425000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1426000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1427000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1428000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1429000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1430000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1431000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1432000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1433000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1434000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1435000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1436000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1437000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1438000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1439000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1440000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1441000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1442000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1443000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1444000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1445000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1446000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1447000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1448000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1449000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1450000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1451000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1452000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1453000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1454000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1455000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1456000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1457000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1458000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1459000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1460000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1461000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1462000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1463000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1464000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1465000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 274.51768493652344 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1466000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1467000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1468000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1469000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1470000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1471000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1472000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1473000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1474000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1475000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1476000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1477000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1478000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1479000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1480000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1481000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1482000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1483000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1484000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1485000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1486000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1487000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1488000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1489000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1490000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1491000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1492000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1493000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1494000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1495000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1496000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1497000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1498000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1499000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1500000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1501000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1502000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1503000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1504000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1505000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1506000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1507000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1508000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1509000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1510000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1511000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1512000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1513000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1514000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1515000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1516000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1517000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1518000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1519000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1520000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1521000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1522000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1523000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1524000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1525000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1526000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1527000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1528000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1529000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1530000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1531000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1532000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1533000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1534000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1535000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1536000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1537000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1538000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1539000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1540000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1541000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1542000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1543000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1544000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1545000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1546000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 265.70898270606995 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1547000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1548000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1549000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1550000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1551000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1552000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1553000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1554000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1555000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1556000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1557000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1558000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1559000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1560000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1561000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1562000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1563000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1564000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1565000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1566000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1567000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1568000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1569000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1570000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1571000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1572000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1573000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1574000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1575000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1576000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1577000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1578000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1579000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1580000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1581000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1582000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1583000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1584000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1585000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1586000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1587000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1588000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1589000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1590000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1591000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1592000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1593000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1594000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1595000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1596000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1597000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1598000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1599000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1600000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1601000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1602000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1603000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1604000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1605000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1606000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1607000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1608000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1609000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1610000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1611000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1612000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1613000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1614000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1615000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1616000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1617000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1618000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1619000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1620000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1621000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1622000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1623000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1624000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1625000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1626000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1627000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 282.85687017440796 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1628000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1629000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1630000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1631000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1632000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1633000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1634000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1635000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1636000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1637000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1638000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1639000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1640000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1641000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1642000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1643000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1644000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1645000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1646000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1647000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1648000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1649000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1650000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1651000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1652000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1653000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1654000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1655000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1656000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1657000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1658000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1659000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1660000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1661000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1662000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1663000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1664000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1665000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1666000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1667000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1668000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1669000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1670000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1671000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1672000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1673000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1674000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1675000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1676000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1677000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1678000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1679000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1680000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1681000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1682000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1683000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1684000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1685000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1686000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1687000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1688000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1689000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1690000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1691000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1692000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1693000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1694000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1695000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1696000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1697000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1698000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1699000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1700000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1701000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1702000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1703000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1704000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1705000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1706000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1707000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1708000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 280.21631026268005 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1709000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1710000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1711000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1712000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1713000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1714000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1715000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1716000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1717000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1718000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1719000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1720000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1721000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1722000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1723000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1724000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1725000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1726000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1727000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1728000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1729000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1730000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1731000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1732000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1733000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1734000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1735000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1736000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1737000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1738000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1739000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1740000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1741000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1742000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1743000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1744000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1745000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1746000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1747000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1748000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1749000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1750000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1751000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1752000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1753000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1754000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1755000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1756000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1757000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1758000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1759000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1760000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1761000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1762000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1763000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1764000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1765000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1766000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1767000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1768000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1769000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1770000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1771000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1772000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1773000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1774000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1775000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1776000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1777000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1778000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1779000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1780000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1781000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1782000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1783000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1784000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1785000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1786000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1787000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1788000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1789000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 267.4974420070648 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1790000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1791000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1792000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1793000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1794000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1795000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1796000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1797000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1798000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1799000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1800000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1801000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1802000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1803000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1804000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1805000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1806000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1807000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1808000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1809000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1810000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1811000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1812000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1813000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1814000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1815000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1816000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1817000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1818000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1819000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1820000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1821000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1822000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1823000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1824000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1825000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1826000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1827000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1828000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1829000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1830000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1831000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1832000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1833000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1834000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1835000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1836000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1837000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1838000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1839000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1840000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1841000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1842000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1843000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1844000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1845000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1846000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1847000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1848000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1849000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1850000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1851000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1852000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1853000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1854000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1855000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1856000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1857000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1858000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1859000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1860000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1861000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1862000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1863000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1864000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1865000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1866000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1867000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1868000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1869000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1870000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 289.4338963031769 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1871000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1872000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1873000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1874000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1875000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1876000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1877000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1878000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1879000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1880000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1881000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1882000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1883000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1884000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1885000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1886000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1887000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1888000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1889000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1890000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1891000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1892000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1893000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1894000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1895000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1896000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1897000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1898000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1899000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1900000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1901000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1902000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1903000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1904000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1905000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1906000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1907000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1908000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1909000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1910000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1911000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1912000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1913000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1914000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1915000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1916000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1917000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1918000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1919000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1920000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1921000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1922000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1923000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1924000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1925000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1926000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1927000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1928000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1929000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1930000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1931000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1932000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1933000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1934000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1935000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1936000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1937000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1938000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1939000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1940000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1941000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1942000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1943000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1944000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1945000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1946000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1947000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1948000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1949000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1950000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 294.45266032218933 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 1951000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1952000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1953000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1954000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1955000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1956000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1957000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1958000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1959000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1960000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1961000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1962000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1963000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1964000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1965000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1966000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1967000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1968000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1969000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1970000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1971000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1972000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1973000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1974000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1975000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1976000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1977000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1978000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1979000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1980000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1981000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1982000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1983000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1984000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1985000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1986000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1987000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1988000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1989000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1990000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1991000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1992000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1993000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1994000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1995000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1996000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1997000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1998000 hydrated tweets.
+Started IO
+Finished IO
+Saved 1999000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2000000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2001000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2002000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2003000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2004000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2005000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2006000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2007000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2008000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2009000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2010000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2011000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2012000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2013000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2014000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2015000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2016000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2017000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2018000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2019000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2020000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2021000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2022000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2023000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2024000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2025000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2026000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2027000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2028000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2029000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2030000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2031000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>WARNING:twarc:rate limit exceeded: sleeping 280.13334798812866 secs
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Started IO
+Finished IO
+Saved 2032000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2033000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2034000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2035000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2036000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2037000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2038000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2039000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2040000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2041000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2042000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2043000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2044000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2045000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2046000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2047000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2048000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2049000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2050000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2051000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2052000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2053000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2054000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2055000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2056000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2057000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2058000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2059000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2060000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2061000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2062000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2063000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2064000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2065000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2066000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2067000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2068000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2069000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2070000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2071000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2072000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2073000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2074000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2075000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2076000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2077000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2078000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2079000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2080000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2081000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2082000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2083000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2084000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2085000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2086000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2087000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2088000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2089000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2090000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2091000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2092000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2093000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2094000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2095000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2096000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2097000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2098000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2099000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2100000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2101000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2102000 hydrated tweets.
+Started IO
+Finished IO
+Saved 2103000 hydrated tweets.
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">_make_request</span><span class="ansi-blue-intense-fg ansi-bold">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="ansi-green-fg">    376</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>  <span class="ansi-red-intense-fg ansi-bold"># Python 2.7, use buffering of HTTP responses</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 377</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>httplib_response <span class="ansi-yellow-intense-fg ansi-bold">=</span> conn<span class="ansi-yellow-intense-fg ansi-bold">.</span>getresponse<span class="ansi-yellow-intense-fg ansi-bold">(</span>buffering<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    378</span>             <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError<span class="ansi-yellow-intense-fg ansi-bold">:</span>  <span class="ansi-red-intense-fg ansi-bold"># Python 3</span>
+
+<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: getresponse() got an unexpected keyword argument &#39;buffering&#39;
+
+During handling of the above exception, another exception occurred:
+
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>                         Traceback (most recent call last)
+<span class="ansi-green-intense-fg ansi-bold">&lt;ipython-input-9-0277a35c3bbf&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">     22</span> 
+<span class="ansi-green-fg">     23</span> <span class="ansi-red-intense-fg ansi-bold"># Now, use twarc and start hydrating</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 24</span><span class="ansi-yellow-intense-fg ansi-bold"> </span><span class="ansi-green-intense-fg ansi-bold">for</span> tweet <span class="ansi-green-intense-fg ansi-bold">in</span> t<span class="ansi-yellow-intense-fg ansi-bold">.</span>hydrate<span class="ansi-yellow-intense-fg ansi-bold">(</span>ids_to_hydrate<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">     25</span>     hydrated_tweets<span class="ansi-yellow-intense-fg ansi-bold">.</span>append<span class="ansi-yellow-intense-fg ansi-bold">(</span>tweet<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     26</span>     count <span class="ansi-yellow-intense-fg ansi-bold">+=</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\client.py</span> in <span class="ansi-cyan-fg">hydrate</span><span class="ansi-blue-intense-fg ansi-bold">(self, iterator, trim_user)</span>
+<span class="ansi-green-fg">    558</span>                     <span class="ansi-blue-intense-fg ansi-bold">&#34;include_ext_alt_text&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;true&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">    559</span>                     <span class="ansi-blue-intense-fg ansi-bold">&#34;include_entities&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;true&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 560</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span><span class="ansi-blue-intense-fg ansi-bold">&#34;trim_user&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">:</span> trim_user
+<span class="ansi-green-fg">    561</span>                 })
+<span class="ansi-green-fg">    562</span>                 tweets <span class="ansi-yellow-intense-fg ansi-bold">=</span> resp<span class="ansi-yellow-intense-fg ansi-bold">.</span>json<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\decorators.py</span> in <span class="ansi-cyan-fg">new_f</span><span class="ansi-blue-intense-fg ansi-bold">(*args, **kwargs)</span>
+<span class="ansi-green-fg">     19</span>         errors <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span>
+<span class="ansi-green-fg">     20</span>         <span class="ansi-green-intense-fg ansi-bold">while</span> <span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 21</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>resp <span class="ansi-yellow-intense-fg ansi-bold">=</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     22</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> resp<span class="ansi-yellow-intense-fg ansi-bold">.</span>status_code <span class="ansi-yellow-intense-fg ansi-bold">==</span> <span class="ansi-cyan-intense-fg ansi-bold">200</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">     23</span>                 errors <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-cyan-intense-fg ansi-bold">0</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\decorators.py</span> in <span class="ansi-cyan-fg">new_f</span><span class="ansi-blue-intense-fg ansi-bold">(self, *args, **kwargs)</span>
+<span class="ansi-green-fg">     80</span>                 <span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     81</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 82</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     83</span>     <span class="ansi-green-intense-fg ansi-bold">return</span> new_f
+<span class="ansi-green-fg">     84</span> 
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\decorators.py</span> in <span class="ansi-cyan-fg">new_f</span><span class="ansi-blue-intense-fg ansi-bold">(self, *args, **kwargs)</span>
+<span class="ansi-green-fg">     90</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> new_f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">     91</span>         <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 92</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">     93</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>ReadTimeout<span class="ansi-yellow-intense-fg ansi-bold">,</span> ReadTimeoutError<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">     94</span>             log<span class="ansi-yellow-intense-fg ansi-bold">.</span>warning<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;caught read timeout: %s&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> e<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\decorators.py</span> in <span class="ansi-cyan-fg">new_f</span><span class="ansi-blue-intense-fg ansi-bold">(self, *args, **kwargs)</span>
+<span class="ansi-green-fg">    105</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> new_f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    106</span>         <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 107</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> f<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">*</span>args<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    108</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> ContentDecodingError <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    109</span>             log<span class="ansi-yellow-intense-fg ansi-bold">.</span>warning<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;caught gzip error: %s&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> e<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\twarc\client.py</span> in <span class="ansi-cyan-fg">post</span><span class="ansi-blue-intense-fg ansi-bold">(self, *args, **kwargs)</span>
+<span class="ansi-green-fg">    812</span>             log<span class="ansi-yellow-intense-fg ansi-bold">.</span>info<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;posting %s %s&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> args<span class="ansi-yellow-intense-fg ansi-bold">,</span> kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    813</span>             self.last_response = self.client.post(*args, timeout=(3.05, 31),
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 814</span><span class="ansi-yellow-intense-fg ansi-bold">                                                   **kwargs)
+</span><span class="ansi-green-fg">    815</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>last_response
+<span class="ansi-green-fg">    816</span>         <span class="ansi-green-intense-fg ansi-bold">except</span> <span class="ansi-yellow-intense-fg ansi-bold">(</span>ssl<span class="ansi-yellow-intense-fg ansi-bold">.</span>SSLError<span class="ansi-yellow-intense-fg ansi-bold">,</span> ConnectionError<span class="ansi-yellow-intense-fg ansi-bold">,</span> ProtocolError<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\requests\sessions.py</span> in <span class="ansi-cyan-fg">post</span><span class="ansi-blue-intense-fg ansi-bold">(self, url, data, json, **kwargs)</span>
+<span class="ansi-green-fg">    588</span>         &#34;&#34;&#34;
+<span class="ansi-green-fg">    589</span> 
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 590</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>request<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#39;POST&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">,</span> data<span class="ansi-yellow-intense-fg ansi-bold">=</span>data<span class="ansi-yellow-intense-fg ansi-bold">,</span> json<span class="ansi-yellow-intense-fg ansi-bold">=</span>json<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    591</span> 
+<span class="ansi-green-fg">    592</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> put<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">,</span> url<span class="ansi-yellow-intense-fg ansi-bold">,</span> data<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\requests\sessions.py</span> in <span class="ansi-cyan-fg">request</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
+<span class="ansi-green-fg">    540</span>         }
+<span class="ansi-green-fg">    541</span>         send_kwargs<span class="ansi-yellow-intense-fg ansi-bold">.</span>update<span class="ansi-yellow-intense-fg ansi-bold">(</span>settings<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 542</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>resp <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>send<span class="ansi-yellow-intense-fg ansi-bold">(</span>prep<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>send_kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    543</span> 
+<span class="ansi-green-fg">    544</span>         <span class="ansi-green-intense-fg ansi-bold">return</span> resp
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\requests\sessions.py</span> in <span class="ansi-cyan-fg">send</span><span class="ansi-blue-intense-fg ansi-bold">(self, request, **kwargs)</span>
+<span class="ansi-green-fg">    653</span> 
+<span class="ansi-green-fg">    654</span>         <span class="ansi-red-intense-fg ansi-bold"># Send the request</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 655</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>r <span class="ansi-yellow-intense-fg ansi-bold">=</span> adapter<span class="ansi-yellow-intense-fg ansi-bold">.</span>send<span class="ansi-yellow-intense-fg ansi-bold">(</span>request<span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-yellow-intense-fg ansi-bold">**</span>kwargs<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    656</span> 
+<span class="ansi-green-fg">    657</span>         <span class="ansi-red-intense-fg ansi-bold"># Total elapsed time of the request (approximately)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\requests\adapters.py</span> in <span class="ansi-cyan-fg">send</span><span class="ansi-blue-intense-fg ansi-bold">(self, request, stream, timeout, verify, cert, proxies)</span>
+<span class="ansi-green-fg">    447</span>                     decode_content<span class="ansi-yellow-intense-fg ansi-bold">=</span><span class="ansi-green-intense-fg ansi-bold">False</span><span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">    448</span>                     retries<span class="ansi-yellow-intense-fg ansi-bold">=</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>max_retries<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 449</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span>timeout<span class="ansi-yellow-intense-fg ansi-bold">=</span>timeout
+<span class="ansi-green-fg">    450</span>                 )
+<span class="ansi-green-fg">    451</span> 
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">urlopen</span><span class="ansi-blue-intense-fg ansi-bold">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
+<span class="ansi-green-fg">    598</span>                                                   timeout<span class="ansi-yellow-intense-fg ansi-bold">=</span>timeout_obj<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-fg">    599</span>                                                   body<span class="ansi-yellow-intense-fg ansi-bold">=</span>body<span class="ansi-yellow-intense-fg ansi-bold">,</span> headers<span class="ansi-yellow-intense-fg ansi-bold">=</span>headers<span class="ansi-yellow-intense-fg ansi-bold">,</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 600</span><span class="ansi-yellow-intense-fg ansi-bold">                                                   chunked=chunked)
+</span><span class="ansi-green-fg">    601</span> 
+<span class="ansi-green-fg">    602</span>             <span class="ansi-red-intense-fg ansi-bold"># If we&#39;re going to release the connection in ``finally:``, then</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\site-packages\urllib3\connectionpool.py</span> in <span class="ansi-cyan-fg">_make_request</span><span class="ansi-blue-intense-fg ansi-bold">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="ansi-green-fg">    378</span>             <span class="ansi-green-intense-fg ansi-bold">except</span> TypeError<span class="ansi-yellow-intense-fg ansi-bold">:</span>  <span class="ansi-red-intense-fg ansi-bold"># Python 3</span>
+<span class="ansi-green-fg">    379</span>                 <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 380</span><span class="ansi-yellow-intense-fg ansi-bold">                     </span>httplib_response <span class="ansi-yellow-intense-fg ansi-bold">=</span> conn<span class="ansi-yellow-intense-fg ansi-bold">.</span>getresponse<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    381</span>                 <span class="ansi-green-intense-fg ansi-bold">except</span> Exception <span class="ansi-green-intense-fg ansi-bold">as</span> e<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    382</span>                     <span class="ansi-red-intense-fg ansi-bold"># Remove the TypeError from the exception chain in Python 3;</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\http\client.py</span> in <span class="ansi-cyan-fg">getresponse</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
+<span class="ansi-green-fg">   1367</span>         <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1368</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1369</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span>response<span class="ansi-yellow-intense-fg ansi-bold">.</span>begin<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1370</span>             <span class="ansi-green-intense-fg ansi-bold">except</span> ConnectionError<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1371</span>                 self<span class="ansi-yellow-intense-fg ansi-bold">.</span>close<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\http\client.py</span> in <span class="ansi-cyan-fg">begin</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
+<span class="ansi-green-fg">    308</span>         <span class="ansi-red-intense-fg ansi-bold"># read until we get a non-100 response</span>
+<span class="ansi-green-fg">    309</span>         <span class="ansi-green-intense-fg ansi-bold">while</span> <span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 310</span><span class="ansi-yellow-intense-fg ansi-bold">             </span>version<span class="ansi-yellow-intense-fg ansi-bold">,</span> status<span class="ansi-yellow-intense-fg ansi-bold">,</span> reason <span class="ansi-yellow-intense-fg ansi-bold">=</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_read_status<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    311</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> status <span class="ansi-yellow-intense-fg ansi-bold">!=</span> CONTINUE<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    312</span>                 <span class="ansi-green-intense-fg ansi-bold">break</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\http\client.py</span> in <span class="ansi-cyan-fg">_read_status</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
+<span class="ansi-green-fg">    269</span> 
+<span class="ansi-green-fg">    270</span>     <span class="ansi-green-intense-fg ansi-bold">def</span> _read_status<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 271</span><span class="ansi-yellow-intense-fg ansi-bold">         </span>line <span class="ansi-yellow-intense-fg ansi-bold">=</span> str<span class="ansi-yellow-intense-fg ansi-bold">(</span>self<span class="ansi-yellow-intense-fg ansi-bold">.</span>fp<span class="ansi-yellow-intense-fg ansi-bold">.</span>readline<span class="ansi-yellow-intense-fg ansi-bold">(</span>_MAXLINE <span class="ansi-yellow-intense-fg ansi-bold">+</span> <span class="ansi-cyan-intense-fg ansi-bold">1</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;iso-8859-1&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    272</span>         <span class="ansi-green-intense-fg ansi-bold">if</span> len<span class="ansi-yellow-intense-fg ansi-bold">(</span>line<span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">&gt;</span> _MAXLINE<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    273</span>             <span class="ansi-green-intense-fg ansi-bold">raise</span> LineTooLong<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;status line&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\socket.py</span> in <span class="ansi-cyan-fg">readinto</span><span class="ansi-blue-intense-fg ansi-bold">(self, b)</span>
+<span class="ansi-green-fg">    587</span>         <span class="ansi-green-intense-fg ansi-bold">while</span> <span class="ansi-green-intense-fg ansi-bold">True</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    588</span>             <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 589</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_sock<span class="ansi-yellow-intense-fg ansi-bold">.</span>recv_into<span class="ansi-yellow-intense-fg ansi-bold">(</span>b<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    590</span>             <span class="ansi-green-intense-fg ansi-bold">except</span> timeout<span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    591</span>                 self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_timeout_occurred <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-green-intense-fg ansi-bold">True</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\ssl.py</span> in <span class="ansi-cyan-fg">recv_into</span><span class="ansi-blue-intense-fg ansi-bold">(self, buffer, nbytes, flags)</span>
+<span class="ansi-green-fg">   1069</span>                   <span class="ansi-blue-intense-fg ansi-bold">&#34;non-zero flags not allowed in calls to recv_into() on %s&#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">%</span>
+<span class="ansi-green-fg">   1070</span>                   self.__class__)
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 1071</span><span class="ansi-yellow-intense-fg ansi-bold">             </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>read<span class="ansi-yellow-intense-fg ansi-bold">(</span>nbytes<span class="ansi-yellow-intense-fg ansi-bold">,</span> buffer<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">   1072</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">   1073</span>             <span class="ansi-green-intense-fg ansi-bold">return</span> super<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>recv_into<span class="ansi-yellow-intense-fg ansi-bold">(</span>buffer<span class="ansi-yellow-intense-fg ansi-bold">,</span> nbytes<span class="ansi-yellow-intense-fg ansi-bold">,</span> flags<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-green-intense-fg ansi-bold">c:\users\ritvi\appdata\local\programs\python\python37\lib\ssl.py</span> in <span class="ansi-cyan-fg">read</span><span class="ansi-blue-intense-fg ansi-bold">(self, len, buffer)</span>
+<span class="ansi-green-fg">    927</span>         <span class="ansi-green-intense-fg ansi-bold">try</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    928</span>             <span class="ansi-green-intense-fg ansi-bold">if</span> buffer <span class="ansi-green-intense-fg ansi-bold">is</span> <span class="ansi-green-intense-fg ansi-bold">not</span> <span class="ansi-green-intense-fg ansi-bold">None</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 929</span><span class="ansi-yellow-intense-fg ansi-bold">                 </span><span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_sslobj<span class="ansi-yellow-intense-fg ansi-bold">.</span>read<span class="ansi-yellow-intense-fg ansi-bold">(</span>len<span class="ansi-yellow-intense-fg ansi-bold">,</span> buffer<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+<span class="ansi-green-fg">    930</span>             <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
+<span class="ansi-green-fg">    931</span>                 <span class="ansi-green-intense-fg ansi-bold">return</span> self<span class="ansi-yellow-intense-fg ansi-bold">.</span>_sslobj<span class="ansi-yellow-intense-fg ansi-bold">.</span>read<span class="ansi-yellow-intense-fg ansi-bold">(</span>len<span class="ansi-yellow-intense-fg ansi-bold">)</span>
+
+<span class="ansi-red-intense-fg ansi-bold">KeyboardInterrupt</span>: </pre>
+</div>
+</div>
+
 </div>
 </div>
 
